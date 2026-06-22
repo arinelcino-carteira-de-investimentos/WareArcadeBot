@@ -4,66 +4,28 @@
 
 import os
 import logging
-import sqlite3
-import json
-import uuid
 import asyncio
-from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 from telegram.constants import ParseMode
-from dotenv import load_dotenv
 
-load_dotenv()
-
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-DATABASE_PATH = "warearcade.db"
+# PEGA O TOKEN DIRETO DA VARIÁVEL DE AMBIENTE
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-print("🚀 Iniciando WareArcadeBot...")
-print(f"✅ Token: {TELEGRAM_BOT_TOKEN[:10]}...")
+print("=" * 60)
+print("🎮 WareArcadeBot - Iniciando...")
+print("=" * 60)
 
-# ════════════════════════════════════════
-# BANCO DE DADOS
-# ════════════════════════════════════════
+# Verifica o token
+if not TELEGRAM_BOT_TOKEN:
+    print("❌ ERRO: TELEGRAM_BOT_TOKEN não configurado!")
+    print("Configure a variável de ambiente TELEGRAM_BOT_TOKEN")
+    exit(1)
 
-def init_db():
-    conn = sqlite3.connect(DATABASE_PATH)
-    cursor = conn.cursor()
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS users (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            telegram_id INTEGER UNIQUE NOT NULL,
-            username TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-    """)
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS orders (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            order_code TEXT UNIQUE NOT NULL,
-            telegram_id INTEGER NOT NULL,
-            game_name TEXT NOT NULL,
-            price REAL NOT NULL,
-            status TEXT DEFAULT 'pendente',
-            download_url TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-    """)
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS cart (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            telegram_id INTEGER NOT NULL,
-            game_id INTEGER NOT NULL,
-            game_name TEXT NOT NULL,
-            price REAL NOT NULL
-        )
-    """)
-    conn.commit()
-    conn.close()
-    print("✅ Banco de dados inicializado")
+print(f"✅ Token carregado: {TELEGRAM_BOT_TOKEN[:10]}...")
 
 # ════════════════════════════════════════
 # CATÁLOGO
@@ -88,7 +50,7 @@ def get_game(game_id):
 # HANDLERS
 # ════════════════════════════════════════
 
-async def start(update, context):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     welcome = (
         f"🎮 *WareArcadeBot*\n"
@@ -102,13 +64,12 @@ async def start(update, context):
     
     keyboard = [
         [InlineKeyboardButton("🎮 Catálogo", callback_data="catalog")],
-        [InlineKeyboardButton("🛒 Carrinho", callback_data="cart")],
         [InlineKeyboardButton("📞 Suporte", callback_data="support")],
     ]
     
     await update.message.reply_text(welcome, parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(keyboard))
 
-async def catalog(update, context):
+async def catalog(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = []
     for game in GAMES:
         keyboard.append([InlineKeyboardButton(f"🎮 {game['nome']} - R$ {game['preco']:.2f}", callback_data=f"game_{game['id']}")])
@@ -120,7 +81,7 @@ async def catalog(update, context):
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
-async def game_detail(update, context, game_id):
+async def game_detail(update: Update, context: ContextTypes.DEFAULT_TYPE, game_id: int):
     game = get_game(game_id)
     if not game:
         await update.callback_query.answer("Produto não encontrado!")
@@ -129,48 +90,14 @@ async def game_detail(update, context, game_id):
     text = f"🎮 *{game['nome']}*\n\n💰 R$ {game['preco']:.2f}\n📝 {game['desc']}\n\n✅ Entrega imediata"
     
     keyboard = [
-        [InlineKeyboardButton("🛒 Adicionar", callback_data=f"add_{game_id}")],
-        [InlineKeyboardButton("⚡ Comprar", callback_data=f"buy_{game_id}")],
         [InlineKeyboardButton("🔙 Voltar", callback_data="catalog")],
+        [InlineKeyboardButton("🏠 Menu", callback_data="menu")],
     ]
     
     await update.callback_query.message.delete()
     await update.callback_query.message.reply_text(text, parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(keyboard))
 
-async def add_to_cart(update, context, game_id):
-    game = get_game(game_id)
-    if not game:
-        await update.callback_query.answer("Erro!")
-        return
-    await update.callback_query.answer(f"✅ {game['nome']} adicionado!")
-
-async def buy_now(update, context, game_id):
-    game = get_game(game_id)
-    if not game:
-        await update.callback_query.answer("Erro!")
-        return
-    
-    order_code = f"WA-{uuid.uuid4().hex[:8].upper()}"
-    download_url = f"https://warearcadebot.com.br/download/{uuid.uuid4().hex}"
-    
-    await update.callback_query.edit_message_text(
-        f"✅ *COMPRA REALIZADA!*\n\n"
-        f"📋 Pedido: `{order_code}`\n"
-        f"🎮 {game['nome']}\n"
-        f"💰 R$ {game['preco']:.2f}\n\n"
-        f"⬇️ Link: {download_url}\n\n"
-        f"💚 Aproveite!",
-        parse_mode=ParseMode.MARKDOWN,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 Menu", callback_data="menu")]])
-    )
-
-async def show_cart(update, context):
-    await update.callback_query.edit_message_text(
-        "🛒 Carrinho vazio!\n\nAdicione produtos do catálogo.",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎮 Catálogo", callback_data="catalog")]])
-    )
-
-async def show_support(update, context):
+async def show_support(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         "📞 *SUPORTE*\n\n"
         "📱 WhatsApp: +5511940462611\n"
@@ -179,7 +106,7 @@ async def show_support(update, context):
     )
     await update.callback_query.edit_message_text(text, parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 Menu", callback_data="menu")]]))
 
-async def button(update, context):
+async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     data = query.data
     
@@ -187,35 +114,26 @@ async def button(update, context):
         await start(update, context)
     elif data == "catalog":
         await catalog(update, context)
-    elif data == "cart":
-        await show_cart(update, context)
     elif data == "support":
         await show_support(update, context)
     elif data.startswith("game_"):
         game_id = int(data.split("_")[1])
         await game_detail(update, context, game_id)
-    elif data.startswith("add_"):
-        game_id = int(data.split("_")[1])
-        await add_to_cart(update, context, game_id)
-    elif data.startswith("buy_"):
-        game_id = int(data.split("_")[1])
-        await buy_now(update, context, game_id)
 
 # ════════════════════════════════════════
 # MAIN
 # ════════════════════════════════════════
 
 async def main_async():
-    print("🎮 WareArcadeBot iniciando...")
-    init_db()
-    print(f"📦 Catálogo: {len(GAMES)} produtos")
+    print("🚀 Conectando ao Telegram...")
     
     app = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
     
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button))
     
-    print("✅ Bot rodando!")
+    print("✅ Bot rodando! Aguardando mensagens...")
+    print("=" * 60)
     
     await app.initialize()
     await app.start()
@@ -228,9 +146,8 @@ def main():
         asyncio.run(main_async())
     except KeyboardInterrupt:
         print("🛑 Bot parado.")
+    except Exception as e:
+        print(f"❌ Erro: {e}")
 
 if __name__ == "__main__":
-    if not TELEGRAM_BOT_TOKEN:
-        print("❌ TOKEN não configurado!")
-    else:
-        main()
+    main()
