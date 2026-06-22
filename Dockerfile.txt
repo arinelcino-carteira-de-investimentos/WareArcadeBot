@@ -2,9 +2,13 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
+# Copia os arquivos de dependência primeiro (melhor para cache)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# Copia o resto do código
+COPY bot.py .
+COPY .env .
 
+# Comando para rodar o bot
 CMD ["python", "bot.py"]

@@ -1,0 +1,8 @@
+import os
+from dotenv import load_workbook, load_dotenv
+
+# Força o carregamento do arquivo .env da pasta atual
+load_dotenv()
+
+# Aqui continua o resto do seu código antigo...
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")

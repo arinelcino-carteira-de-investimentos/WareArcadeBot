@@ -1,0 +1,410 @@
+favor criar um chatbot  na Shark Bot, para o telegram que usa a seguinte biblioteca t será um chatbot de venda de serviços de downloads onde ofereço Jogos de diversas plataforma  bot deverá ser simples e intuitivo de usar para que, clientes leigos consigam usar este bot sem grandes dificuldades. Além disso, por enquanto crie um fluxo fictício de vendas onde será possível realizar todo o processo até que uma venda seja finalizada, após a confirmação abrira um link e também este link sera enviado para o email cadastrado, onde o cliente possa fazer o downloads e terá um tempo pré-derteminado pelo adm e posteriormente poderá ser configurado e editado.
+(ou seja coletas os dados do cliente)
+
+- https://sharkbot.com.br/dashboard
+- https://drive.google.com/drive/folders/1RBx9FecNphrOb6rki5F_B7QD9f1Pt7bo?usp=sharing
+-  Use como fonte de dados o link a seguir:https://nerdgames.com.br/catalogo-de-jogos-para-pc-nerd-games/, lá terá os produtos, preço, descrição, imagens, forma de pagamentos condições de e regras de envio, ou seja todas as informações necessárias pra criar o código.
+converta para este telegran: WareArcadeBot.
+
+- Use este arquivo de  exemplo e converta para um aplicativo de venda de jogos por downloads,  no Telegram
+
+"Crie um prd de execução em formato texto (.TXT) para importar 
+
+i O Novo Paradigma: O Humano como Diretor, a IAcomo Engenharia
+O ELON é um agente de conteúdo autônomo de nível de produção que roda 24 horas
+por dia, 7 dias por semana nos servidores da Railway. Ele é capaz de interceptar
+ideias enviadas de forma bruta no Telegram do Conrado, realizar pesquisas
+profundas (Deep Research) sobre tendências no X/Twitter, estruturar redações virais
+e dispará-las automaticamente via APIs Oficiais no LinkedIn e X/Twitter.
+A parte mais inacreditável? O Conrado não escreveu uma única linha de código.
+O sistema inteiro foi arquitetado, programado, testado e deployado através de uma parceria
+estratégica com o Antigravity, o agente de IA parceiro de desenvolvimento. O Conrado agiu
+como Diretor Criativo e de Produto, fornecendo os requisitos e coletando as credenciais de API,
+enquanto o Antigravity gerou toda a base de código (Node.js e scripts Python com Tweepy) e
+executou as tarefas complexas de DevOps.
+Este playbook descreve o passo a passo exato e os prompts precisos para que qualquer pessoa
+consiga guiar um agente como o Antigravity a fazer exatamente o mesmo.
+5/29/26, 9:37 PM AGENTIC PLAYBOOK // Construindo o ELON Sem Código
+file:///Users/condz/Documents/JON/public/guia.html 2/8 1 Fase 1:Conquistando asChaves (AsAPIs Oficiais)
+Antes de abrir o chat com o Antigravity, você precisa obter as credenciais que permitirão que a
+sua IA acesse os servidores e publique em seu nome. Siga este roteiro de coleta:
+Dica de ouro: Salve todas essas chaves temporariamente em um bloco de notas. Você as enviará
+para o agente quando solicitado, sem precisar tocar em arquivos de código.
+1. O Canal de Entrada: Bot do Telegram
+Acesse o bot @BotFather oficial dentro do Telegram e digite /newbot. Dê um nome (ex:
+ElonContentBot) e guarde o Access Token gerado. Ele ligará a IA ao seu Telegram
+pessoal.
+2. A Voz Profissional: API do LinkedIn Developer
+Entre em developer.linkedin.com, crie um aplicativo associado a uma página de empresa
+(pode criar uma página fictícia se precisar). Solicite as permissões Share on LinkedIn e
+Sign In with LinkedIn. Use a ferramenta oficial de OAuth para extrair seu LinkedIn
+URN (o identificador único do seu perfil) e o Access Token de Longa Duração (2 meses).
+3. O Palco Viral: API do Twitter / X Developer
+Entre no developer.x.com, crie um projeto e gere as credenciais da API com permissões de
+Read and Write. Guarde o Consumer Key, Consumer Secret, Access Token e Access
+Token Secret.
+5/29/26, 9:37 PM AGENTIC PLAYBOOK // Construindo o ELON Sem Código
+file:///Users/condz/Documents/JON/public/guia.html 3/8 2 Fase 2:A Ordem Mestra (O PromptInicial doAntigravity)
+Abra o seu ambiente de desenvolvimento integrado ou console e inicie um chat com o
+seu Agente de IA (como o Antigravity). Copie, adapte e envie o seguinte prompt
+máster para iniciar o desenvolvimento do zero:
+Este prompt cria uma fundação clara: ele diz quem você é (o Diretor), quem a IA é (a engenharia),
+estabelece a arquitetura livre de alucinações (APIs Oficiais, scripts Python, banco JSON local) e
+Você é um Engenheiro de Software Full-Stack de elite e especialista em DevOps rodando no
+macOS. Seu objetivo é me ajudar a construir um sistema autônomo completo chamado "ELON"
+, que
+atua como meu agente de conteúdo inteligente.
+Eu NÃO quero tocar em código, editar arquivos manualmente ou criar estruturas do zero. Você
+fará TODAS as escritas de código, instalações de pacotes, configurações de git e deploys na
+nuvem. Eu agirei como Diretor Criativo e de Negócios, te fornecendo credenciais e feedback.
+ARQUITETURA TÉCNICA REQUERIDA DO SISTEMA:
+1. Back-end em Node.js (Vite na Web / Servidor HTTP com Express ou nativo) rodando 24/7.
+2. Interface do Telegram com webhooks ou polling ativo (usando node-telegram-bot-api ou
+chamadas diretas).
+3. Banco de Dados Local leve baseado em JSON estruturado para controle de sessões e histórico
+de rascunhos.
+4. Geração de Posts inteligente alimentada por LLM (API do Gemini 2.0 ou OpenAI) que analisa
+meu input bruto no Telegram, pesquisa tópicos virais e escreve rascunhos otimizados para
+viralizar no X e no LinkedIn.
+5. Geração de Imagem Estática Realista de Alta Qualidade (estilo UGC de empresário bem-
+sucedido) usando a API da OpenAI (modelo gpt-image-2 ou DALL-E 3).
+6. Script em Python integrado via spawn de processo para publicação no Twitter/X usando a
+biblioteca Tweepy (API v2).
+7. Módulo de Publicação no LinkedIn via API Oficial (chamadas HTTP POST com URN e Bearer
+token).
+8. Sistema de Sessão no Telegram com botões interativos (Inline Keyboards) no Telegram para
+que eu possa aprovar ou disparar as postagens direto pelo chat ("Postar no X"
+,
+"Postar no
+LinkedIn"
+,
+"Postar em Ambos").
+INSTRUÇÕES DE EXECUÇÃO:
+- Crie a pasta do projeto no meu workspace atual.
+- Inicialize o repositório git e o package.json.
+- Escreva código limpo, modular, robusto e com tratamento profundo de erros de API.
+- Crie um arquivo .env na raiz e me pergunte as chaves necessárias (chaves do LinkedIn, X,
+Telegram e OpenAI).
+- Me dê o passo a passo para deployar isso no Railway.
+Comece agora criando o esqueleto inicial do projeto, inicializando o repositório, instalando
+as dependências necessárias e me dizendo o que precisa que eu te envie para configurar o
+.env.
+PROMPT COPIÁVEL
+5/29/26, 9:37 PM AGENTIC PLAYBOOK // Construindo o ELON Sem Código
+file:///Users/condz/Documents/JON/public/guia.html 4/8 exige execução direta via ferramentas de escrita de arquivos e terminal do agente.
+3 Fase 3: O Fluxo de Desenvolvimento Iterativo
+Durante a criação do ELON, surgiram problemas reais (tamanho de imagens de referência, DNS
+de APIs externas, formatação de posts longos). Para resolver isso com o seu Antigravity, use o
+ciclo de feedback ágil por texto:
+1. Testando chamadas individuais no "Scratch"
+Peça para a IA criar scripts rápidos na pasta scratch/ (ex:
+scratch/test_linkedin.js ou scratch/test_openai.js) para validar credenciais
+e payload antes de conectar a inteligência inteira. Isso garante que a fundação é sólida.
+2. Refinamento de Comportamento
+Se a imagem gerada estiver saindo fantasiosa ou artificial, ordene:
+"Ajuste o gerador de
+imagens para garantir um estilo UGC bruto, como uma foto tirada pelo iPhone 15 Pro de um
+tech entrepreneur bem-sucedido mas sem poses artificiais, Succession aesthetic, com luz
+natural.
+"
+3. Mudanças de Escopo sem Dor
+Se você decidir simplificar ou remover recursos (como a remoção do pipeline de vídeo
+Seedance realizada pelo Conrado), a ordem para a IA é simples:
+"Remova completamente a
+integração do Seedance. Delete os gatilhos assíncronos de geração de vídeo na criação de
+imagem e atualize o prompt do sistema para remover menções a vídeos de bastidores para
+evitar alucinações.
+" A IA fará o refactoring do código inteiro e garantirá a integridade do
+sistema em segundos.
+5/29/26, 9:37 PM AGENTIC PLAYBOOK // Construindo o ELON Sem Código
+file:///Users/condz/Documents/JON/public/guia.html 5/8 4 Fase 4:ANuvem 24/7 (DevOps com a IA)
+Um agente de conteúdo pessoal de verdade não pode depender do seu notebook
+pessoal estar ligado ou aberto. Ele precisa rodar em segundo plano na nuvem. Veja
+como direcionar a IA para estruturar o deploy:
+O Dockerfile Inteligente: Ordene para o Antigravity:
+"Gere um Dockerfile robusto para rodar
+tanto o servidor Node.js quanto os scripts auxiliares em Python com as dependências do pip
+instaladas.
+"
+Conexão com o Railway: Vincule o repositório do GitHub do seu projeto ao painel do Railway. A
+nuvem identificará o Dockerfile e criará uma infraestrutura isolada e de altíssima velocidade.
+Variáveis de Ambiente (Environment Variables): Insira todas as chaves coletadas na Fase 1
+diretamente no painel de configurações do Railway. As credenciais nunca ficam expostas no
+código do GitHub, mantendo o sistema 100% seguro.
+Resultado: Cada alteração que você pedir e for commitada no GitHub pela IA disparará uma
+atualização em tempo real na nuvem do Railway de forma instantânea (CI/CD nativo).
+
+========================================
+NERD GAMES - CATÁLOGO DE PRODUTOS (PC)
+Baseado nas imagens fornecidas
+========================================
+
+----------------------------------------
+FORMAS DE PAGAMENTO (aceitas no site)
+----------------------------------------
+Shark Wallet 2.0 'Shark Bot'
+
+----------------------------------------
+ENTREGAS E SEGURANÇA
+----------------------------------------
+- Entrega Garantida: Envio imediato após a compra
+- Cliente Satisfeito: Os melhores preços
+- Suporte ao Cliente: Atendimento de Segurança
+- Pagamento Seguro: Cartão, Pós e Boleto
+
+----------------------------------------
+ATENDIMENTO AO CLIENTE
+----------------------------------------
+Horário: Seg a Sex: 9-19h / Sab: 9-14h
+Contato: Contato@nordgames.com.br
+Redes: @nordgames (Instagram, etc.)
+
+----------------------------------------
+MENU DO SITE
+----------------------------------------
+- Sobre Nós
+- Contato
+- Perguntas Frequentes
+- Meus Pedidos
+- Editar Cadastro
+- Todos os Produtos
+
+----------------------------------------
+POLÍTICAS INSTITUCIONAIS
+----------------------------------------
+- Política de Privacidade
+- Política de Devolução e Trocas
+- Política de Entrega e Prazos
+
+----------------------------------------
+ONDE NOS ENCONTRAR
+----------------------------------------
+- Mapa (link)
+- WhatsApp (link)
+- Telefone (link)
+- E-mail (link)
+
+========================================
+LISTA DE JOGOS (COM PREÇOS E DESCRIÇÃO)
+========================================
+
+1. Nome: House Flipper Remastered Collection
+   Preço: R$ 32,90
+   Descrição: Coleção remasterizada do simulador de reformas.
+
+2. Nome: Manor Lords
+   Preço: R$ 26,90
+   Descrição: Jogo de estratégia e construção medieval.
+
+3. Nome: Need for Speed Most Wanted Limited Edition
+   Preço original: R$ 34,90 | Preço com oferta: R$ 24,90
+   Descrição: Edição limitada do clássico de corrida.
+
+4. Nome: Marvel Ultimate Alliance
+   Preço: R$ 29,90
+   Descrição: RPG de ação com heróis Marvel.
+
+5. Nome: Red Dead Redemption 2
+   Preço original: R$ 64,90 | Preço com oferta: R$ 38,90
+   Descrição: Ação e aventura no Velho Oeste.
+
+6. Nome: MEGAMAN COMPLETE PACK
+   Preço original: R$ 69,90 | Preço com oferta: R$ 29,90
+   Descrição: Pacote completo da franquia Mega Man.
+
+7. Nome: Hollow Knight Silksong
+   Preço original: R$ 29,90 | Preço com oferta: R$ 19,90
+   Descrição: Sequência do aclamado metroidvania.
+
+8. Nome: Farming Simulator 22 Platinum Edition
+   Preço original: R$ 39,90 | Preço com oferta: R$ 32,90
+   Descrição: Simulação agrícola com conteúdo extra.
+
+9. Nome: Pragmata
+   Preço original: R$ 62,99 | Preço com oferta: R$ 34,90
+   Descrição: Jogo de ação/aventura futurista (Capcom).
+
+10. Nome: Subnautica 2 – offline
+    Preço original: R$ 48,99 | Preço com oferta: R$ 29,90
+    Descrição: Simulação subaquática offline.
+
+11. Nome: Tomb Raider IV-VI Remastered
+    Preço: R$ 24,90
+    Descrição: Remaster dos clássicos Tomb Raider.
+
+12. Nome: Sonic Frontiers – Digital Deluxe Edition
+    Preço original: R$ 44,99 | Preço com oferta: R$ 29,90
+    Descrição: Ação e plataforma em mundo aberto.
+
+13. Nome: Core Keeper + Todas DLCs
+    Preço: R$ 24,90
+    Descrição: Survival sandbox com todas as expansões.
+
+14. Nome: Spyro Reignited Trilogy
+    Preço: R$ 32,90
+    Descrição: Trilogia remasterizada do dragão Spyro.
+
+15. Nome: Marvel Cosmic Invasion
+    Preço original: R$ 39,90 | Preço com oferta: R$ 26,90
+    Descrição: Ação com heróis do espaço Marvel.
+
+16. Nome: Grand Theft Auto Vice City (GTA) – The Definitive Edition
+    Preço: R$ 29,90
+    Descrição: Versão definitiva do clássico GTA.
+
+17. Nome: PES 2013 / PRO EVOLUTION SOCCER 2013
+    Preço: R$ 29,90
+    Descrição: Simulador de futebol de 2013.
+
+18. Nome: Stellar Blade
+    Preço original: R$ 54,90 | Preço com oferta: R$ 34,90
+    Descrição: Ação em terceira pessoa futurista.
+
+19. Nome: Tony Hawks Pro Skater 1+2 Digital Deluxe Edition
+    Preço original: R$ 54,90 | Preço com oferta: R$ 29,90
+    Descrição: Remaster dos clássicos de skate.
+
+20. Nome: Farming Simulator 22 Year 1 Bundle
+    Preço original: R$ 36,90 | Preço com oferta: R$ 29,90
+    Descrição: Bundle com primeiro ano de conteúdo.
+
+21. Nome: The Witcher 3: Wild Hunt — Complete Edition
+    Preço: R$ 29,90
+    Descrição: RPG completo com todas as expansões.
+
+22. Nome: FIFA 12 + UEFA EURO 2012
+    Preço original: R$ 36,99 | Preço com oferta: R$ 29,90
+    Descrição: Futebol com a Eurocopa 2012.
+
+23. Nome: Dead Space Remake
+    Preço original: R$ 64,99 | Preço com oferta: R$ 32,90
+    Descrição: Terror espacial refeito do zero.
+
+24. Nome: Assetto Corsa Rally
+    Preço original: R$ 49,99 | Preço com oferta: R$ 27,90
+    Descrição: Simulador de corrida de rali.
+
+25. Nome: Prison Architect — Total Lockdown
+    Preço original: R$ 57,99 | Preço com oferta: R$ 34,90
+    Descrição: Simulador de prisão completo.
+
+26. Nome: Slay the Spire 2
+    Preço original: R$ 29,99 | Preço com oferta: R$ 19,90
+    Descrição: Roguelike de cartas (sequência).
+
+27. Nome: FORZA HORIZON 6
+    Preço original: R$ 72,90 | Preço com oferta: R$ 37,90
+    Descrição: Corrida em mundo aberto.
+
+28. Nome: TOMB RAIDER 1:11 REMASTERED
+    Preço original: R$ 32,90 | Preço com oferta: R$ 19,90
+    Descrição: Remaster dos primeiros Tomb Raider.
+
+29. Nome: Kingdom Come Deliverance II
+    Preço original: R$ 62,90 | Preço com oferta: R$ 32,90
+    Descrição: RPG histórico realista medieval.
+
+30. Nome: EUROPA UNIVERSALIS V
+    Preço: R$ 32,90
+    Descrição: Grande estratégia mundial.
+
+31. Nome: Elden Ring
+    Preço original: R$ 45,90 | Preço com oferta: R$ 32,90
+    Descrição: RPG de ação em mundo aberto.
+
+32. Nome: Elden Ring Nightreign Deluxe Edition
+    Preço original: R$ 54,90 | Preço com oferta: R$ 29,90
+    Descrição: Edição de luxo com conteúdo extra.
+
+33. Nome: Sekiro: Shadows Die Twice — GOTY Edition
+    Preço original: R$ 39,90 | Preço com oferta: R$ 29,90
+    Descrição: Ação e desafio no Japão feudal.
+
+34. Nome: Elden Ring + Shadow Of The Erdtree DLC
+    Preço original: R$ 72,90 | Preço com oferta: R$ 36,90
+    Descrição: Jogo base + expansão.
+
+35. Nome: Crash Bandicoot 4: It's About Time
+    Preço original: R$ 42,90 | Preço com oferta: R$ 29,90
+    Descrição: Plataforma com o marsupial louco.
+
+36. Nome: Resident Evil 2 Remake (Deluxe Edition)
+    Preço original: R$ 49,90 | Preço com oferta: R$ 29,90
+    Descrição: Terror e sobrevivência em Raccoon City.
+
+37. Nome: The Sims 2 Legacy Collection
+    Preço: R$ 27,90
+    Descrição: Clássico simulador de vida.
+
+38. Nome: Victoria 3
+    Preço original: R$ 46,90 | Preço com oferta: R$ 32,90
+    Descrição: Grande estratégia do século XIX.
+
+39. Nome: Ready Or Not + Todas as DLCs
+    Preço: R$ 32,90
+    Descrição: Tático policial com todas expansões.
+
+40. Nome: LEGO Batman: O Legado do Cavaleiro das Trevas
+    Preço original: R$ 62,90 | Preço com oferta: R$ 34,90
+    Descrição: Ação e humor com Lego Batman.
+
+41. Nome: Crash Bandicoot Trilogy
+    Preço original: R$ 42,90 | Preço com oferta: R$ 29,90
+    Descrição: Trilogia clássica remasterizada.
+
+42. Nome: Command & Conquer Generals Zero Hour
+    Preço original: R$ 34,90 | Preço com oferta: R$ 22,90
+    Descrição: RTS de guerra moderna.
+
+43. Nome: Cities Skylines
+    Preço: R$ 29,90
+    Descrição: Simulador de cidade.
+
+44. Nome: Spider-Man Miles Morales
+    Preço original: R$ 42,40 | Preço com oferta: R$ 29,90
+    Descrição: Ação com o Homem-Aranha Miles.
+
+45. Nome: Resident Evil Requiem Deluxe Edition
+    Preço original: R$ 72,90 | Preço com oferta: R$ 37,90
+    Descrição: Edição de luxo de RE Requiem.
+
+46. Nome: inZOI
+    Preço original: R$ 59,90 | Preço com oferta: R$ 34,90
+    Descrição: Simulador de vida realista.
+
+47. Nome: Grand Theft Auto San Andreas – Definitive Edition
+    Preço: R$ 29,90
+    Descrição: Clássico do GTA remasterizado.
+
+48. Nome: The Last of Us Part II Remastered
+    Preço original: R$ 59,90 | Preço com oferta: R$ 36,90
+    Descrição: Ação e drama pós-apocalíptico.
+
+49. Nome: Cities Skylines Collection
+    Preço: R$ 29,90
+    Descrição: Coleção do simulador de cidades.
+
+50. Nome: Age of Empires III: Definitive Edition – Com Todas DLCs
+    Preço original: R$ 34,90 | Preço com oferta: R$ 27,90
+    Descrição: RTS histórico com todas expansões.
+
+... (a lista completa nos prints inclui muitos outros títulos como FIFA 14, Euro Truck Simulator 2, House Flipper 2, The Sims 3, FIFA 22, etc.)
+
+========================================
+PERGUNTAS FREQUENTES (FAQ)
+========================================
+- O envio é imediato após a compra?
+- Quais as formas de pagamento disponíveis?
+- Qual o prazo para a aprovação do meu pedido?
+- Como funciona após a compra?
+- Como receberei meu jogo?
+- Os dados do meu cartão ficam salvos no sistema?
+- Como entrar em contato se tiver alguma dúvida?
+- Os jogos são originais?
+- Posso comprar com segurança?
+- Há algum custo de envio?
+- Responsabilidade sobre erros e componentes do sistema.
+
+========================================
+FIM DO CATÁLOGO
+========================================

@@ -1,0 +1,1824 @@
+# 🎮 GBSTORE BOT — CATÁLOGO EXPANDIDO COMPLETO
+
+## 📦 NOVOS PLANOS A ADICIONAR NA ABA "PLANOS"
+
+A GBStore agora vende **não apenas jogos e Windows/Office**, mas também **aplicativos próprios premium** — softwares e apps exclusivos desenvolvidos internamente. Isso transforma a loja de uma simples revenda de keys em uma **plataforma de produtos digitais proprietários com alto valor agregado**.
+
+---
+
+## 🔄 ATUALIZAÇÃO DA BOAS-VINDAS (Substituir a anterior)
+
+Na aba **"Boas-vindas"**, substitua a mensagem anterior por esta versão expandida:
+
+```
+🎮 𝗕𝗘𝗠-𝗩𝗜𝗡𝗗𝗢 À 𝗚𝗕𝗦𝗧𝗢𝗥𝗘! 🎮
+
+Olá, {nome}! 👋
+
+Somos a loja digital #1 do Telegram.
+Jogos, softwares, aplicativos e sistemas
+com preços IMBATÍVEIS.
+
+━━━━━━━━━━━━━━━━━━
+
+✅ Entrega INSTANTÂNEA (em minutos)
+✅ Pagamento via PIX, Cartão ou Boleto
+✅ Licenças 100% originais e permanentes
+✅ Apps EXCLUSIVOS desenvolvidos por nós
+✅ Suporte 7 dias por semana
+✅ +2.500 clientes satisfeitos ⭐
+
+━━━━━━━━━━━━━━━━━━
+
+🔥 𝗗𝗘𝗦𝗧𝗔𝗤𝗨𝗘𝗦:
+
+🎮 GTA V Premium — 𝗥$ 𝟮𝟵,𝟵𝟬
+💻 Windows 11 Pro — 𝗥$ 𝟰𝟱,𝟬𝟬
+🏢 ETHECNC ERP PRO — 𝗥$ 𝟭𝟵𝟳,𝟬𝟬
+💰 FlashPay Enterprise — 𝗥$ 𝟭𝟰𝟳,𝟬𝟬
+🎲 Foco Loterias Premium — 𝗥$ 𝟲𝟵,𝟵𝟬
+🤖 Open Studio IA — 𝗥$ 𝟴𝟵,𝟵𝟬
+
+━━━━━━━━━━━━━━━━━━
+
+⏰ 𝗣𝗥𝗢𝗠𝗢ÇÃ𝗢 𝗣𝗢𝗥 𝗧𝗘𝗠𝗣𝗢 𝗟𝗜𝗠𝗜𝗧𝗔𝗗𝗢!
+🎟️ Cupom 𝗕𝗘𝗠𝗩𝗜𝗡𝗗𝗢 → 𝟭𝟱% 𝗢𝗙𝗙 extra!
+
+━━━━━━━━━━━━━━━━━━
+
+👇 𝗘𝘀𝗰𝗼𝗹𝗵𝗮 𝘂𝗺𝗮 𝗰𝗮𝘁𝗲𝗴𝗼𝗿𝗶𝗮:
+```
+
+### Novos Botões da Boas-Vindas (Atualizado)
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║              BOTÕES ATUALIZADOS — BOAS-VINDAS             ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  LINHA 1:                                                 ║
+║  ┌───────────────────────────────────────────────────┐    ║
+║  │ 🛒 VER CATÁLOGO COMPLETO                          │    ║
+║  │ Ação: Ir para → PLANOS (todos)                    │    ║
+║  └───────────────────────────────────────────────────┘    ║
+║                                                           ║
+║  LINHA 2 (3 botões):                                     ║
+║  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐      ║
+║  │ 🎮 Jogos PC  │ │ 💻 Softwares │ │ 🏢 ERP/Sistemas║      ║
+║  └──────────────┘ └──────────────┘ └──────────────┘      ║
+║                                                           ║
+║  LINHA 3 (3 botões):                                     ║
+║  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐      ║
+║  │ 💰 Finanças  │ │ 🎲 Loterias  │ │ 🤖 IA/Produt. ║      ║
+║  └──────────────┘ └──────────────┘ └──────────────┘      ║
+║                                                           ║
+║  LINHA 4 (2 botões):                                     ║
+║  ┌─────────────────────┐ ┌─────────────────────────┐     ║
+║  │ 🎁 Packs/Combos     │ │ 🎟️ Tenho Cupom          │     ║
+║  └─────────────────────┘ └─────────────────────────┘     ║
+║                                                           ║
+║  LINHA 5 (2 botões):                                     ║
+║  ┌─────────────────────┐ ┌─────────────────────────┐     ║
+║  │ ❓ Dúvidas (FAQ)    │ │ 📞 Suporte Humano       │     ║
+║  └─────────────────────┘ └─────────────────────────┘     ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🏢 CATEGORIA: ERP & AUTOMAÇÃO DE VENDAS
+
+---
+
+### 📦 PLANO 7 — ETHECNC ERP PRO
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🏢 ETHECNC ERP PRO               │
+│ Tipo: Pagamento único                   │
+│ Preço: 197.00                           │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Banner ERP dashboard executivo │
+│ Tags: erp, sistema, vendas, gestão     │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🏢 𝗘𝗧𝗛𝗘𝗖𝗡𝗖 𝗘𝗥𝗣 𝗣𝗥𝗢
+
+Dashboard executivo completo para sua empresa! 📊
+Painel de vendas, financeiro e estoque em um só lugar.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Dashboard executivo completo
+├ ✅ Painel de vendas em tempo real
+├ ✅ Controle financeiro integrado
+├ ✅ Gestão de estoque automatizada
+├ ✅ Relatórios gerenciais PDF
+├ ✅ Acesso Web (qualquer dispositivo)
+├ ✅ Atualizações vitalícias
+└ ✅ Suporte técnico prioritário
+
+━━━━━━━━━━━━━━━━━━
+
+💡 𝗜𝗗𝗘𝗔𝗟 𝗣𝗔𝗥𝗔:
+├ 🏪 Lojas e comércios
+├ 🏭 Pequenas indústrias
+├ 📦 Distribuidoras
+└ 👨‍💼 Empreendedores
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Sistemas ERP no mercado: R$ 500-2.000/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟭𝟵𝟳,𝟬𝟬 (𝗣𝗔𝗚𝗔𝗠𝗘𝗡𝗧𝗢 Ú𝗡𝗜𝗖𝗢!)
+📉 Sem mensalidade — pague uma vez, use SEMPRE
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso liberado em minutos
+🔒 Licença permanente
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Clique para comprar:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR ERP PRO — R$ 197,00] → Gerar pagamento
+[◀️ Voltar ao catálogo] → Voltar para PLANOS
+```
+
+---
+
+### 📦 PLANO 8 — SAV-ETHECNC (Sistema de Automação de Vendas)
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🛒 SAV-ETHECNC — Automação Vendas│
+│ Tipo: Pagamento único                   │
+│ Preço: 147.00                           │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Banner PDV/sistema de vendas   │
+│ Tags: pdv, vendas, automação, estoque  │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🛒 𝗦𝗔𝗩-𝗘𝗧𝗛𝗘𝗖𝗡𝗖 — 𝗔𝗨𝗧𝗢𝗠𝗔ÇÃ𝗢 𝗗𝗘 𝗩𝗘𝗡𝗗𝗔𝗦
+
+Sistema completo de PDV + Estoque + Financeiro! 💼
+Tudo que seu negócio precisa para vender mais.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ PDV completo (Ponto de Venda)
+├ ✅ Controle de estoque inteligente
+├ ✅ Módulo financeiro integrado
+├ ✅ Emissão de relatórios
+├ ✅ Versão Web + Android (APK)
+├ ✅ Cadastro de clientes e produtos
+├ ✅ Histórico de vendas completo
+└ ✅ Suporte técnico incluso
+
+━━━━━━━━━━━━━━━━━━
+
+📱 𝗙𝗨𝗡𝗖𝗜𝗢𝗡𝗔 𝗘𝗠:
+├ 🖥️ Navegador Web (PC/Notebook)
+└ 📱 App Android (celular/tablet)
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Sistemas PDV similares: R$ 200-500/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟭𝟰𝟳,𝟬𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 Economia de R$ 2.400+/ano vs concorrentes!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato após pagamento
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Comprar agora:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR SAV — R$ 147,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 9 — Optima-IA — Diagnóstico Operacional
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🔍 Optima-IA — Diagnóstico       │
+│        Operacional Inteligente          │
+│ Tipo: Pagamento único                   │
+│ Preço: 127.00                           │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Banner diagnóstico/gráficos   │
+│ Tags: ia, diagnóstico, operacional     │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🔍 𝗢𝗣𝗧𝗜𝗠𝗔-𝗜𝗔 — 𝗗𝗜𝗔𝗚𝗡Ó𝗦𝗧𝗜𝗖𝗢 𝗢𝗣𝗘𝗥𝗔𝗖𝗜𝗢𝗡𝗔𝗟
+
+Inteligência Artificial que identifica GARGALOS
+na operação da sua empresa! 🤖📊
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Diagnóstico operacional com IA
+├ ✅ Identificação automática de gargalos
+├ ✅ Sugestões de otimização inteligente
+├ ✅ Relatórios visuais interativos
+├ ✅ Versão Web + Android (APK)
+├ ✅ Dashboard de métricas em tempo real
+├ ✅ Exportação de dados
+└ ✅ Atualizações contínuas
+
+━━━━━━━━━━━━━━━━━━
+
+🧠 𝗔 𝗜𝗔 𝗔𝗡𝗔𝗟𝗜𝗦𝗔:
+├ 📈 Processos ineficientes
+├ ⏰ Tempos de espera excessivos
+├ 💸 Desperdícios de recursos
+├ 🔄 Fluxos que podem ser otimizados
+└ 📊 KPIs críticos do seu negócio
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Consultorias operacionais: R$ 3.000-15.000
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟭𝟮𝟳,𝟬𝟬
+📉 IA fazendo o trabalho de um consultor!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero diagnosticar minha empresa:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR OPTIMA-IA — R$ 127,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 💰 CATEGORIA: FINANÇAS & INVESTIMENTOS
+
+---
+
+### 📦 PLANO 10 — FlashPay Enterprise
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: ⚡ FlashPay Enterprise            │
+│ Tipo: Pagamento único                   │
+│ Preço: 147.00                           │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Screenshot FlashPay (usar a    │
+│         tela que você enviou!)          │
+│ Tags: fintech, pix, investimento, app  │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+⚡ 𝗙𝗟𝗔𝗦𝗛𝗣𝗔𝗬 𝗘𝗡𝗧𝗘𝗥𝗣𝗥𝗜𝗦𝗘
+
+Sua fintech pessoal no celular! 💳📱
+Conta, PIX, cartões, investimentos e Chat IA.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Conta corrente digital completa
+├ ✅ Módulo PIX integrado
+├ ✅ Gerenciamento de cartões
+├ ✅ Plataforma de investimentos
+│    (CDI Premium +15% vs Poupança)
+├ ✅ Indexador de Lucros FPAY
+├ ✅ Chat IA financeiro assistente
+├ ✅ Histórico completo de transações
+├ ✅ Simulador TED/Crédito
+├ ✅ App Android (APK)
+└ ✅ Atualizações vitalícias
+
+━━━━━━━━━━━━━━━━━━
+
+📊 𝗙𝗨𝗡Ç𝗢̃𝗘𝗦 𝗣𝗥𝗜𝗡𝗖𝗜𝗣𝗔𝗜𝗦:
+├ 📱 Painel — Dashboard financeiro
+├ 💸 PIX — Envio e recebimento
+├ 💳 Cartões — Gestão completa
+├ 📈 Investir — Simulações e rendimento
+├ 🤖 Chat IA — Assistente financeiro
+└ ⚙️ Ajustes — Personalização total
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Apps fintech premium: R$ 50-200/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟭𝟰𝟳,𝟬𝟬 (𝗣𝗔𝗚𝗨𝗘 𝗨𝗠𝗔 𝗩𝗘𝗭!)
+📉 Sem mensalidade — use para sempre
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Download imediato do APK
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero minha fintech pessoal:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR FLASHPAY — R$ 147,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 11 — Lumia Finance + WealthMaster (Combo)
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 💎 Lumia Finance Premium          │
+│ Tipo: Pagamento único                   │
+│ Preço: 97.00                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: finanças, ia, gestão, pessoal    │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+💎 𝗟𝗨𝗠𝗜𝗔 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗣𝗥𝗘𝗠𝗜𝗨𝗠
+
+Gestão financeira pessoal com Inteligência Artificial! 🧠💰
+Controle suas finanças de forma inteligente.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Lumia Finance — Gestão financeira IA
+├ ✅ WealthMaster Premium — Sistema high-end
+├ ✅ Dashboard financeiro visual
+├ ✅ Categorização inteligente de gastos
+├ ✅ Projeções com IA
+├ ✅ Metas financeiras automatizadas
+├ ✅ Relatórios mensais automáticos
+└ ✅ Acesso Web (qualquer dispositivo)
+
+━━━━━━━━━━━━━━━━━━
+
+🧠 𝗔 𝗜𝗔 𝗧𝗘 𝗔𝗝𝗨𝗗𝗔 𝗔:
+├ 📉 Identificar gastos desnecessários
+├ 💡 Sugerir economias personalizadas
+├ 📊 Projetar seu futuro financeiro
+├ 🎯 Alcançar metas de poupança
+└ 📈 Otimizar seus investimentos
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Apps similares: R$ 30-80/mês (assinatura)
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟵𝟳,𝟬𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 Inclui Lumia + WealthMaster juntos!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero controlar minhas finanças:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR LUMIA FINANCE — R$ 97,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 12 — Âncora Carteira de Investimentos Master
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: ⚓ Âncora — Carteira de           │
+│        Investimentos Master             │
+│ Tipo: Pagamento único                   │
+│ Preço: 117.00                           │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: investimento, carteira, dados    │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+⚓ Â𝗡𝗖𝗢𝗥𝗔 — 𝗖𝗔𝗥𝗧𝗘𝗜𝗥𝗔 𝗗𝗘 𝗜𝗡𝗩𝗘𝗦𝗧𝗜𝗠𝗘𝗡𝗧𝗢𝗦
+
+Dashboard analítico profissional para gestão
+dos seus investimentos! 📈💼
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Dashboard Master de investimentos
+├ ✅ Gestão de carteira diversificada
+├ ✅ Análise de performance por ativo
+├ ✅ Comparativo de rentabilidade
+├ ✅ Gráficos interativos em tempo real
+├ ✅ Alertas de oportunidade
+├ ✅ Exportação de relatórios
+└ ✅ Acesso Web premium
+
+━━━━━━━━━━━━━━━━━━
+
+📊 𝗠Ó𝗗𝗨𝗟𝗢𝗦:
+├ 📈 Renda Fixa (CDB, LCI, Tesouro)
+├ 📊 Renda Variável (Ações, FIIs)
+├ 💱 Cripto (Bitcoin, Ethereum)
+├ 🏠 Fundos Imobiliários
+└ 📋 Consolidado geral
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Plataformas similares: R$ 50-150/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟭𝟭𝟳,𝟬𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 Pague uma vez, invista para sempre!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero gerenciar meus investimentos:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR ÂNCORA — R$ 117,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 13 — FlashPay Casa+ / Home (Combo Familiar)
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🏠 FlashPay Casa+ Home           │
+│ Tipo: Pagamento único                   │
+│ Preço: 79.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: família, finanças, doméstico     │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🏠 𝗙𝗟𝗔𝗦𝗛𝗣𝗔𝗬 𝗖𝗔𝗦𝗔+ 𝗛𝗢𝗠𝗘
+
+Controle financeiro doméstico PREMIUM! 🏡💰
+Gestão financeira e investimentos familiares.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲 (2 sistemas):
+
+🏠 𝗙𝗹𝗮𝘀𝗵𝗣𝗮𝘆 𝗖𝗮𝘀𝗮+:
+├ ✅ Orçamento familiar inteligente
+├ ✅ Gestão de investimentos da família
+├ ✅ Planejamento de gastos compartilhado
+└ ✅ Metas financeiras familiares
+
+🏡 𝗙𝗹𝗮𝘀𝗵𝗣𝗮𝘆 𝗛𝗼𝗺𝗲:
+├ ✅ Controle de contas domésticas
+├ ✅ Categorias personalizáveis
+├ ✅ Alertas de vencimento
+├ ✅ Gráficos de gastos mensais
+└ ✅ Versão Web + Android
+
+━━━━━━━━━━━━━━━━━━
+
+💡 𝗣𝗘𝗥𝗙𝗘𝗜𝗧𝗢 𝗣𝗔𝗥𝗔:
+├ 👨‍👩‍👧‍👦 Famílias que querem economizar
+├ 🏠 Casais organizando finanças
+└ 📊 Quem quer sair das dívidas
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Apps separados: R$ 140,00
+🔥 𝗖𝗢𝗠𝗕𝗢: 𝗥$ 𝟳𝟵,𝟵𝟬 (𝟮 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀!)
+📉 43% OFF comprando juntos!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Organizar finanças da família:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR FLASHPAY CASA+ — R$ 79,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 14 — Wealthflow Premium
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 💎 Wealthflow Premium             │
+│ Tipo: Pagamento único                   │
+│ Preço: 87.00                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: finanças, premium, fluxo caixa   │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+💎 𝗪𝗘𝗔𝗟𝗧𝗛𝗙𝗟𝗢𝗪 𝗣𝗥𝗘𝗠𝗜𝗨𝗠
+
+Sistema financeiro premium para quem leva
+dinheiro a sério! 💰📊
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Dashboard financeiro premium
+├ ✅ Fluxo de caixa automatizado
+├ ✅ Análise de receitas e despesas
+├ ✅ Projeções financeiras
+├ ✅ Categorização inteligente
+├ ✅ Gráficos interativos
+├ ✅ Interface premium elegante
+└ ✅ Acesso Web ilimitado
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Preço de mercado: R$ 200+
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟴𝟳,𝟬𝟬 (Ú𝗡𝗜𝗖𝗢!)
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero o Wealthflow:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR WEALTHFLOW — R$ 87,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 🎲 CATEGORIA: LOTERIAS & ESTATÍSTICA
+
+---
+
+### 📦 PLANO 15 — Foco Loterias Premium
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🎲 Foco Loterias Premium         │
+│ Tipo: Pagamento único                   │
+│ Preço: 69.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Screenshots do Foco Loterias   │
+│         (usar as telas que enviou!)     │
+│ Tags: loteria, lotofácil, mega-sena    │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🎲 𝗙𝗢𝗖𝗢 𝗟𝗢𝗧𝗘𝗥𝗜𝗔𝗦 𝗣𝗥𝗘𝗠𝗜𝗨𝗠
+
+Plataforma estatística INTELIGENTE para
+Lotofácil e Mega-Sena! 🎯🍀
+Com Oráculo dos Sonhos + IA Gemini integrada!
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ App Android completo (APK)
+├ ✅ Modo LOTOFÁCIL + MEGA-SENA
+├ ✅ Gerador estatístico inteligente
+├ ✅ Simulador de ROI (retorno)
+├ ✅ Sistema de Bolões automático
+├ ✅ 🔮 Oráculo dos Sonhos (IA Gemini!)
+│    → Interpreta seus sonhos em dezenas
+├ ✅ Filtros matemáticos avançados
+│    (Par/Ímpar, geométricos, etc.)
+├ ✅ 1500 tentativas do gerador dinâmico
+├ ✅ Histórico completo de concursos
+├ ✅ 4 temas visuais (Light, Dark, 
+│    White, Cristal Liquid)
+├ ✅ Integração Cósmica & IA (Gemini)
+└ ✅ Atualizações de concursos automáticas
+
+━━━━━━━━━━━━━━━━━━
+
+🎯 𝗠Ó𝗗𝗨𝗟𝗢𝗦 𝗗𝗢 𝗔𝗣𝗣:
+├ 📊 OI — Overview Inteligente
+├ 🎫 Bolão — Gerenciador de grupos
+├ 🔮 Oráculo — Sonhos → Dezenas (IA)
+└ ⚙️ Configurações — Filtros e temas
+
+━━━━━━━━━━━━━━━━━━
+
+🔮 𝗢𝗥Á𝗖𝗨𝗟𝗢 𝗗𝗢𝗦 𝗦𝗢𝗡𝗛𝗢𝗦:
+Descreva seu sonho e a IA interpreta
+os signos, revelando dezenas equivalentes!
+✨ Tecnologia exclusiva com Gemini AI!
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Apps de loteria premium: R$ 30-100/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟲𝟵,𝟵𝟬 (𝗣𝗔𝗚𝗨𝗘 𝗨𝗠𝗔 𝗩𝗘𝗭!)
+📉 Sem assinatura mensal!
+
+━━━━━━━━━━━━━━━━━━
+
+🍀 "E se o próximo prêmio for seu?"
+
+⚡ Download imediato do APK
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero jogar com inteligência:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR FOCO LOTERIAS — R$ 69,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 16 — Lumina 15 — Inteligência Estratégica
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🔮 Lumina 15 — Inteligência       │
+│        Estratégica Lotofácil            │
+│ Tipo: Pagamento único                   │
+│ Preço: 59.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Imagem: Screenshots do Lumina 15       │
+│         (usar as telas que enviou!)     │
+│ Tags: lotofácil, estratégia, análise   │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🔮 𝗟𝗨𝗠𝗜𝗡𝗔 𝟭𝟱 — 𝗜𝗡𝗧𝗘𝗟𝗜𝗚Ê𝗡𝗖𝗜𝗔 𝗘𝗦𝗧𝗥𝗔𝗧É𝗚𝗜𝗖𝗔
+
+Focado 100% na LOTOFÁCIL! 🎯
+Análise estatística de nível profissional.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ App Android (APK) completo
+├ ✅ Resumo com último concurso atualizado
+├ ✅ Gerador estratégico de jogos
+│    → Fixar dezenas (até 12 fixas!)
+│    → Excluir dezenas indesejadas
+├ ✅ Tendências: Quentes & Frias
+│    → Saiba quais dezenas estão em alta
+├ ✅ Filtros estatísticos avançados
+│    (Equilibrado, Por Coluna, etc.)
+├ ✅ Salvamento de jogos gerados
+├ ✅ Dados de ganhadores e prêmios
+├ ✅ Palpites com IA
+└ ✅ Interface limpa e intuitiva
+
+━━━━━━━━━━━━━━━━━━
+
+📱 𝗧𝗘𝗟𝗔𝗦 𝗗𝗢 𝗔𝗣𝗣:
+├ 📊 Resumo — Último concurso + prêmio
+├ 🎰 Gerar — Seleção de dezenas + filtros
+├ 📈 Tendências — Análise quente/fria
+├ 🎫 Jogos — Cartões salvos
+└ ⚙️ Ajustes — Configurações
+
+━━━━━━━━━━━━━━━━━━
+
+📊 𝗨́𝗟𝗧𝗜𝗠𝗢 𝗖𝗢𝗡𝗖𝗨𝗥𝗦𝗢 𝗗𝗜𝗦𝗣𝗢𝗡Í𝗩𝗘𝗟:
+🏆 Concurso 3110 — 22/05/2026
+💰 Prêmio: R$ 1,7 milhão
+🎯 4 ganhadores de 15 pontos
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Preço de mercado: R$ 120+
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟱𝟵,𝟵𝟬
+📉 Sem mensalidade! Pague uma vez!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Download imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero estratégia na Lotofácil:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR LUMINA 15 — R$ 59,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 🤖 CATEGORIA: IA & PRODUTIVIDADE
+
+---
+
+### 📦 PLANO 17 — Open Studio IA
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🤖 Open Studio — Automação IA    │
+│ Tipo: Pagamento único                   │
+│ Preço: 89.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: ia, conteúdo, linkedin, automação│
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🤖 𝗢𝗣𝗘𝗡 𝗦𝗧𝗨𝗗𝗜𝗢 — 𝗔𝗨𝗧𝗢𝗠𝗔ÇÃ𝗢 𝗗𝗘 𝗖𝗢𝗡𝗧𝗘Ú𝗗𝗢
+
+Automatize sua presença digital com IA! 📱✨
+LinkedIn, campanhas e radar de tendências.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Gerador de conteúdo LinkedIn com IA
+├ ✅ Criação de campanhas automatizadas
+├ ✅ Radar de tendências e tópicos quentes
+├ ✅ Calendário editorial inteligente
+├ ✅ Templates profissionais prontos
+├ ✅ Análise de engajamento
+├ ✅ Múltiplos perfis/empresas
+└ ✅ Acesso Web completo
+
+━━━━━━━━━━━━━━━━━━
+
+💼 𝗜𝗗𝗘𝗔𝗟 𝗣𝗔𝗥𝗔:
+├ 👨‍💼 Profissionais que querem autoridade
+├ 🏢 Empresas no LinkedIn
+├ 📣 Social Media Managers
+└ 🚀 Quem quer crescer no digital
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Ferramentas similares: R$ 100-300/mês
+🔥 𝗡𝗢𝗦𝗦𝗢 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟴𝟵,𝟵𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 Sem assinatura mensal!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero automatizar meu conteúdo:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR OPEN STUDIO — R$ 89,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 18 — OptimaAI Code Integrator + Web Unifier
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: ⚡ OptimaAI Developer Pack        │
+│ Tipo: Pagamento único                   │
+│ Preço: 67.00                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: dev, código, html, css, web      │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+⚡ 𝗢𝗣𝗧𝗜𝗠𝗔𝗔𝗜 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗣𝗔𝗖𝗞
+
+2 ferramentas essenciais para desenvolvedores! 💻🔧
+Integre e otimize seu código automaticamente.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜 𝟮 𝗙𝗘𝗥𝗥𝗔𝗠𝗘𝗡𝗧𝗔𝗦:
+
+🔧 𝗖𝗼𝗱𝗲 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗼𝗿 (Android):
+├ ✅ Integra HTML + CSS automaticamente
+├ ✅ Gera estrutura responsiva otimizada
+├ ✅ Limpeza e minificação de código
+└ ✅ Preview em tempo real
+
+🌐 𝗪𝗲𝗯 𝗨𝗻𝗶𝗳𝗶𝗲𝗿 (Web):
+├ ✅ Mescla HTML e CSS em estrutura única
+├ ✅ Otimização automática de performance
+├ ✅ Compatibilidade cross-browser
+└ ✅ Export pronto para deploy
+
+━━━━━━━━━━━━━━━━━━
+
+💻 𝗣𝗔𝗥𝗔 𝗗𝗘𝗩𝗦 𝗤𝗨𝗘:
+├ 🔨 Trabalham com HTML/CSS
+├ 📱 Criam sites responsivos
+├ ⚡ Querem otimizar tempo
+└ 🧹 Precisam de código limpo
+
+━━━━━━━━━━━━━━━━━━
+
+🔥 𝗣𝗔𝗖𝗞 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢: 𝗥$ 𝟲𝟳,𝟬𝟬
+📉 2 ferramentas pelo preço de 1!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Download + acesso imediato
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero o pack de dev:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR DEV PACK — R$ 67,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 19 — DishGen AI
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🍽️ DishGen AI — Menu Visual      │
+│ Tipo: Pagamento único                   │
+│ Preço: 57.00                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: restaurante, comida, foto, ia    │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🍽️ 𝗗𝗜𝗦𝗛𝗚𝗘𝗡 𝗔𝗜 — 𝗠𝗘𝗡𝗨 𝗩𝗜𝗦𝗨𝗔𝗟
+
+Transforme seu cardápio de TEXTO em FOTOS
+profissionais de comida com IA! 📸🤖
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Gerador de fotos de pratos com IA
+├ ✅ Converte texto do menu em imagens
+├ ✅ Qualidade profissional de food styling
+├ ✅ Múltiplos estilos visuais
+├ ✅ Export em alta resolução
+├ ✅ Ideal para cardápios digitais
+└ ✅ Acesso Web ilimitado
+
+━━━━━━━━━━━━━━━━━━
+
+🍔 𝗣𝗘𝗥𝗙𝗘𝗜𝗧𝗢 𝗣𝗔𝗥𝗔:
+├ 🍕 Restaurantes e pizzarias
+├ 🍰 Confeitarias e padarias
+├ 📱 Delivery e iFood
+├ 📋 Cardápios digitais
+└ 📸 Social media de food
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Fotógrafo profissional: R$ 500-2.000
+🔥 𝗗𝗶𝘀𝗵𝗚𝗲𝗻 𝗔𝗜: 𝗥$ 𝟱𝟳,𝟬𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 IA faz em segundos o que custaria R$ 500+
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Acesso imediato | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero fotos profissionais dos meus pratos:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR DISHGEN AI — R$ 57,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 🌱 CATEGORIA: VIDA & SUSTENTABILIDADE
+
+---
+
+### 📦 PLANO 20 — EcoTrack
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🌱 EcoTrack — Sustentabilidade   │
+│ Tipo: Pagamento único                   │
+│ Preço: 39.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: eco, sustentabilidade, carbono   │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🌱 𝗘𝗖𝗢𝗧𝗥𝗔𝗖𝗞 — 𝗦𝗨𝗦𝗧𝗘𝗡𝗧𝗔𝗕𝗜𝗟𝗜𝗗𝗔𝗗𝗘
+
+Rastreie sua pegada de carbono e uso de energia! 🌍💚
+Cuide do planeta enquanto economiza dinheiro.
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ Rastreio de pegada de carbono pessoal
+├ ✅ Monitor de consumo de energia
+├ ✅ Dicas personalizadas de economia
+├ ✅ Comparativo com média nacional
+├ ✅ Metas de redução de emissão
+├ ✅ Relatórios mensais de impacto
+├ ✅ Calculadora de compensação
+└ ✅ App Mobile completo
+
+━━━━━━━━━━━━━━━━━━
+
+🌍 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗨𝗦𝗔𝗥:
+├ 💡 Economize até 30% na conta de luz
+├ 🌿 Reduza sua pegada de carbono
+├ 📊 Dados claros sobre seu impacto
+└ 🏆 Ganhe badges de sustentabilidade
+
+━━━━━━━━━━━━━━━━━━
+
+🔥 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟯𝟵,𝟵𝟬 (Ú𝗡𝗜𝗖𝗢!)
+📉 Cuide do planeta sem mensalidade!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Download imediato | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero cuidar do planeta:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR ECOTRACK — R$ 39,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+### 📦 PLANO 21 — Relíquias Rosa da Cozinha
+
+```
+┌─────────────────────────────────────────┐
+│           CONFIGURAÇÃO DO PLANO          │
+├─────────────────────────────────────────┤
+│ Nome: 🍳 Relíquias Rosa da Cozinha     │
+│ Tipo: Pagamento único                   │
+│ Preço: 29.90                            │
+│ Moeda: BRL (R$)                         │
+│ Estoque: 999                            │
+│ Status: ✅ Ativo                         │
+│ Tags: receita, cozinha, ingredientes   │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem do Plano:**
+
+```
+🍳 𝗥𝗘𝗟Í𝗤𝗨𝗜𝗔𝗦 𝗥𝗢𝗦𝗔 𝗗𝗔 𝗖𝗢𝗭𝗜𝗡𝗛𝗔
+
+Crie receitas INCRÍVEIS com o que tem
+na geladeira! 🧊🍳📖
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗢 𝗾𝘂𝗲 𝘃𝗼𝗰ê 𝗿𝗲𝗰𝗲𝗯𝗲:
+├ ✅ App Android (APK) completo
+├ ✅ Informe os ingredientes disponíveis
+├ ✅ IA gera receitas personalizadas
+├ ✅ Estilo de livro de receitas clássico
+├ ✅ +500 receitas na base
+├ ✅ Favoritos e histórico
+└ ✅ Funciona offline
+
+━━━━━━━━━━━━━━━━━━
+
+👩‍🍳 𝗖𝗢𝗠𝗢 𝗙𝗨𝗡𝗖𝗜𝗢𝗡𝗔:
+1️⃣ Diga o que tem na geladeira
+2️⃣ A IA busca receitas compatíveis
+3️⃣ Escolha e cozinhe! 🍴
+
+━━━━━━━━━━━━━━━━━━
+
+🔥 𝗣𝗥𝗘Ç𝗢: 𝗥$ 𝟮𝟵,𝟵𝟬
+📉 Menos que uma refeição no iFood!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Download imediato | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero cozinhar com inteligência:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR RELÍQUIAS — R$ 29,90] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 🎁 NOVOS PACKS/COMBOS (Aba "Packs")
+
+---
+
+### Pack 4 — Pack Empreendedor Digital
+
+```
+┌─────────────────────────────────────────┐
+│ Nome: 🚀 Pack Empreendedor Digital      │
+│ Produtos: ETHECNC ERP PRO +            │
+│           SAV-ETHECNC +                 │
+│           Optima-IA                     │
+│ Preço: 397.00                           │
+│ (separado seria R$ 471,00)             │
+│ Economia: R$ 74,00 (16% OFF)          │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+🚀 𝗣𝗔𝗖𝗞 𝗘𝗠𝗣𝗥𝗘𝗘𝗡𝗗𝗘𝗗𝗢𝗥 𝗗𝗜𝗚𝗜𝗧𝗔𝗟
+
+TUDO que sua empresa precisa em UM pacote! 💼🏢
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜 𝟯 𝗦𝗜𝗦𝗧𝗘𝗠𝗔𝗦:
+
+🏢 ETHECNC ERP PRO (R$ 197)
+├ Dashboard executivo completo
+└ Vendas, financeiro e estoque
+
+🛒 SAV-ETHECNC (R$ 147)
+├ PDV + Automação de Vendas
+└ Web + Android
+
+🔍 Optima-IA (R$ 127)
+├ Diagnóstico operacional com IA
+└ Identifica gargalos automaticamente
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Separado: R$ 471,00
+🔥 𝗡𝗼 𝗣𝗮𝗰𝗸: 𝗥$ 𝟯𝟵𝟳,𝟬𝟬
+💚 Economia: R$ 74,00 (16% OFF!)
+
+🏆 O SETUP COMPLETO DA SUA EMPRESA
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ 3 sistemas liberados de uma vez
+🛡️ Garantia de 7 dias em todos
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero o Pack Empreendedor:
+```
+
+---
+
+### Pack 5 — Pack Financeiro Total
+
+```
+┌─────────────────────────────────────────┐
+│ Nome: 💰 Pack Financeiro Total          │
+│ Produtos: FlashPay Enterprise +         │
+│           Lumia Finance +               │
+│           Âncora Investimentos +        │
+│           Wealthflow +                  │
+│           FlashPay Casa+                │
+│ Preço: 447.00                           │
+│ (separado seria R$ 527,90)             │
+│ Economia: R$ 80,90 (15% OFF)          │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+💰 𝗣𝗔𝗖𝗞 𝗙𝗜𝗡𝗔𝗡𝗖𝗘𝗜𝗥𝗢 𝗧𝗢𝗧𝗔𝗟
+
+TODOS os apps financeiros da GBStore! 💎💳📈
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜 𝟱 𝗦𝗜𝗦𝗧𝗘𝗠𝗔𝗦:
+
+⚡ FlashPay Enterprise (R$ 147)
+💎 Lumia Finance Premium (R$ 97)
+⚓ Âncora Investimentos (R$ 117)
+💎 Wealthflow Premium (R$ 87)
+🏠 FlashPay Casa+ Home (R$ 79,90)
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Separado: R$ 527,90
+🔥 𝗡𝗼 𝗣𝗮𝗰𝗸: 𝗥$ 𝟰𝟰𝟳,𝟬𝟬
+💚 Economia: R$ 80,90 (15% OFF!)
+
+🏆 CONTROLE FINANCEIRO ABSOLUTO
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ 5 sistemas liberados juntos
+🛡️ Garantia de 7 dias em todos
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero o Pack Financeiro:
+```
+
+---
+
+### Pack 6 — Pack Loteria Duplo
+
+```
+┌─────────────────────────────────────────┐
+│ Nome: 🎲 Pack Loteria Duplo             │
+│ Produtos: Foco Loterias + Lumina 15    │
+│ Preço: 109.90                           │
+│ (separado seria R$ 129,80)             │
+│ Economia: R$ 19,90 (15% OFF)          │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+🎲 𝗣𝗔𝗖𝗞 𝗟𝗢𝗧𝗘𝗥𝗜𝗔 𝗗𝗨𝗣𝗟𝗢
+
+Os 2 melhores apps de loteria JUNTOS! 🍀🎯
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜:
+
+🎲 Foco Loterias Premium (R$ 69,90)
+├ Lotofácil + Mega-Sena
+├ Oráculo dos Sonhos (Gemini AI)
+├ Bolões + Filtros avançados
+└ 4 temas visuais
+
+🔮 Lumina 15 (R$ 59,90)
+├ 100% focado na Lotofácil
+├ Gerador estratégico
+├ Tendências Quentes & Frias
+└ Dados de concursos atualizados
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Separado: R$ 129,80
+🔥 𝗡𝗼 𝗣𝗮𝗰𝗸: 𝗥$ 𝟭𝟬𝟵,𝟵𝟬
+💚 Economia: R$ 19,90
+
+🍀 DOBRE suas ferramentas de análise!
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ 2 APKs entregues juntos
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero os dois apps de loteria:
+```
+
+---
+
+### Pack 7 — Pack IA Completo
+
+```
+┌─────────────────────────────────────────┐
+│ Nome: 🤖 Pack IA Completo               │
+│ Produtos: Open Studio + OptimaAI       │
+│           Dev Pack + DishGen AI         │
+│ Preço: 179.90                           │
+│ (separado seria R$ 213,90)             │
+│ Economia: R$ 34,00 (16% OFF)          │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+🤖 𝗣𝗔𝗖𝗞 𝗜𝗔 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢
+
+TODAS as ferramentas de IA da GBStore! 🧠✨
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜:
+
+🤖 Open Studio (R$ 89,90)
+├ Automação de conteúdo LinkedIn
+└ Campanhas e radar de tendências
+
+⚡ OptimaAI Developer Pack (R$ 67)
+├ Code Integrator (Android)
+└ Web Unifier (Web)
+
+🍽️ DishGen AI (R$ 57)
+├ Menu de texto → Fotos profissionais
+└ Ideal para restaurantes
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Separado: R$ 213,90
+🔥 𝗡𝗼 𝗣𝗮𝗰𝗸: 𝗥$ 𝟭𝟳𝟵,𝟵𝟬
+💚 Economia: R$ 34,00 (16% OFF!)
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Tudo liberado junto | 🛡️ Garantia 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero o Pack IA:
+```
+
+---
+
+### Pack 8 — 👑 MEGA PACK GBSTORE (TUDO!)
+
+```
+┌─────────────────────────────────────────┐
+│ Nome: 👑 MEGA PACK GBSTORE — TUDO!     │
+│ Produtos: TODOS os 21 produtos         │
+│ Preço: 997.00                           │
+│ (separado seria ~R$ 1.800+)            │
+│ Economia: R$ 800+ (45% OFF!)          │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+👑 𝗠𝗘𝗚𝗔 𝗣𝗔𝗖𝗞 𝗚𝗕𝗦𝗧𝗢𝗥𝗘 — 𝗧𝗨𝗗𝗢!
+
+TODOS os produtos da loja em UM pacote! 🔥🔥🔥
+O melhor negócio que você vai fazer no ano!
+
+━━━━━━━━━━━━━━━━━━
+
+📦 𝗜𝗡𝗖𝗟𝗨𝗜 𝗧𝗨𝗗𝗢 (𝟮𝟭+ 𝗽𝗿𝗼𝗱𝘂𝘁𝗼𝘀):
+
+🎮 𝗝𝗢𝗚𝗢𝗦:
+├ GTA V Premium
+├ Elden Ring GOTY
+├ EA Sports FC 25
+└ Cyberpunk 2077 Ultimate
+
+💻 𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘𝗦:
+├ Windows 11 Pro
+└ Office 2021 Pro Plus
+
+🏢 𝗘𝗥𝗣 & 𝗔𝗨𝗧𝗢𝗠𝗔ÇÃ𝗢:
+├ ETHECNC ERP PRO
+├ SAV-ETHECNC
+└ Optima-IA
+
+💰 𝗙𝗜𝗡𝗔𝗡Ç𝗔𝗦:
+├ FlashPay Enterprise
+├ Lumia Finance Premium
+├ Âncora Investimentos Master
+├ Wealthflow Premium
+└ FlashPay Casa+ Home
+
+🎲 𝗟𝗢𝗧𝗘𝗥𝗜𝗔𝗦:
+├ Foco Loterias Premium
+└ Lumina 15
+
+🤖 𝗜𝗔 & 𝗣𝗥𝗢𝗗𝗨𝗧𝗜𝗩𝗜𝗗𝗔𝗗𝗘:
+├ Open Studio IA
+├ OptimaAI Dev Pack
+└ DishGen AI
+
+🌱 𝗩𝗜𝗗𝗔:
+├ EcoTrack
+└ Relíquias Rosa da Cozinha
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Valor total separado: R$ 1.800+
+
+🔥 𝗠𝗘𝗚𝗔 𝗣𝗔𝗖𝗞: 𝗥$ 𝟵𝟵𝟳,𝟬𝟬
+📉 𝟰𝟱% 𝗢𝗙𝗙! 𝗘𝗖𝗢𝗡𝗢𝗠𝗜𝗔 𝗗𝗘 𝗥$ 𝟴𝟬𝟬+!
+
+🏆 A OFERTA MAIS INSANA DA GBSTORE
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ TODOS os acessos liberados de uma vez
+🛡️ Garantia de 7 dias em TODOS
+📞 Suporte VIP prioritário incluso
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Quero TUDO:
+```
+
+**Botões:**
+```
+[🛒 COMPRAR MEGA PACK — R$ 997,00] → Gerar pagamento
+[◀️ Voltar ao catálogo]
+```
+
+---
+
+## 🔘 ATUALIZAÇÃO DOS BOTÕES DO MENU (Aba "Botões")
+
+Atualize os botões do menu persistente para incluir as novas categorias:
+
+```
+┌────┬──────────────────────┬─────────────────────────────┐
+│ #  │ Texto do Botão       │ Ação                        │
+├────┼──────────────────────┼─────────────────────────────┤
+│ 1  │ 🛒 Catálogo Completo │ Mostrar todos os Planos     │
+│ 2  │ 🎮 Jogos PC          │ Planos (filtro: jogos)      │
+│ 3  │ 💻 Softwares         │ Planos (filtro: software)   │
+│ 4  │ 🏢 ERP & Sistemas    │ Planos (filtro: erp)        │
+│ 5  │ 💰 Finanças          │ Planos (filtro: finanças)   │
+│ 6  │ 🎲 Loterias          │ Planos (filtro: loteria)    │
+│ 7  │ 🤖 IA & Produtividade│ Planos (filtro: ia)         │
+│ 8  │ 🌱 Vida & Eco        │ Planos (filtro: eco)        │
+│ 9  │ 📦 Packs & Combos    │ Ir para Packs               │
+│ 10 │ 👑 Clube VIP         │ Ir para Assinatura          │
+│ 11 │ 🎟️ Usar Cupom        │ Solicitar código            │
+│ 12 │ 📋 Meus Pedidos      │ Mostrar histórico           │
+│ 13 │ 📞 Suporte           │ URL: t.me/gbstore_suporte   │
+└────┴──────────────────────┴─────────────────────────────┘
+```
+
+---
+
+## 📊 TABELA COMPLETA DE PRODUTOS — CATÁLOGO FINAL
+
+```
+╔═════╦════════════════════════════════════╦═══════════╦══════════════╗
+║  #  ║ PRODUTO                           ║  PREÇO    ║  CATEGORIA   ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║        🎮 JOGOS PC                ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║  1  ║ 🎮 GTA V Premium Edition          ║ R$ 29,90  ║ Jogos        ║
+║  2  ║ ⚔️ Elden Ring GOTY               ║ R$ 89,90  ║ Jogos        ║
+║  3  ║ ⚽ EA Sports FC 25                ║ R$ 49,90  ║ Jogos        ║
+║  4  ║ 🌃 Cyberpunk 2077 Ultimate        ║ R$ 59,90  ║ Jogos        ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║       💻 SOFTWARES                ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║  5  ║ 💻 Windows 11 Pro Vitalício       ║ R$ 45,00  ║ Software     ║
+║  6  ║ 📊 Office 2021 Pro Plus           ║ R$ 35,00  ║ Software     ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║      🏢 ERP & AUTOMAÇÃO           ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║  7  ║ 🏢 ETHECNC ERP PRO               ║ R$ 197,00 ║ ERP          ║
+║  8  ║ 🛒 SAV-ETHECNC Automação Vendas   ║ R$ 147,00 ║ ERP          ║
+║  9  ║ 🔍 Optima-IA Diagnóstico         ║ R$ 127,00 ║ ERP          ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║       💰 FINANÇAS                 ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ 10  ║ ⚡ FlashPay Enterprise            ║ R$ 147,00 ║ Finanças     ║
+║ 11  ║ 💎 Lumia Finance Premium          ║ R$ 97,00  ║ Finanças     ║
+║ 12  ║ ⚓ Âncora Investimentos Master    ║ R$ 117,00 ║ Finanças     ║
+║ 13  ║ 🏠 FlashPay Casa+ Home           ║ R$ 79,90  ║ Finanças     ║
+║ 14  ║ 💎 Wealthflow Premium             ║ R$ 87,00  ║ Finanças     ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║       🎲 LOTERIAS                 ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ 15  ║ 🎲 Foco Loterias Premium          ║ R$ 69,90  ║ Loteria      ║
+║ 16  ║ 🔮 Lumina 15 Estratégica          ║ R$ 59,90  ║ Loteria      ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║     🤖 IA & PRODUTIVIDADE         ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ 17  ║ 🤖 Open Studio IA                 ║ R$ 89,90  ║ IA           ║
+║ 18  ║ ⚡ OptimaAI Developer Pack        ║ R$ 67,00  ║ IA           ║
+║ 19  ║ 🍽️ DishGen AI                    ║ R$ 57,00  ║ IA           ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║     🌱 VIDA & SUSTENTABILIDADE    ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ 20  ║ 🌱 EcoTrack                        ║ R$ 39,90  ║ Eco          ║
+║ 21  ║ 🍳 Relíquias Rosa da Cozinha      ║ R$ 29,90  ║ Eco          ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║          📦 PACKS                  ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ P1  ║ 🖥️ Pack Essencial PC             ║ R$ 69,90  ║ Pack         ║
+║ P2  ║ 🎮 Mega Pack Gamer                ║ R$ 149,90 ║ Pack         ║
+║ P3  ║ 👑 Pack Setup Completo            ║ R$ 179,90 ║ Pack         ║
+║ P4  ║ 🚀 Pack Empreendedor Digital      ║ R$ 397,00 ║ Pack         ║
+║ P5  ║ 💰 Pack Financeiro Total          ║ R$ 447,00 ║ Pack         ║
+║ P6  ║ 🎲 Pack Loteria Duplo             ║ R$ 109,90 ║ Pack         ║
+║ P7  ║ 🤖 Pack IA Completo              ║ R$ 179,90 ║ Pack         ║
+║ P8  ║ 👑 MEGA PACK TUDO                 ║ R$ 997,00 ║ Pack         ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║     ║        👑 ASSINATURA              ║           ║              ║
+╠═════╬════════════════════════════════════╬═══════════╬══════════════╣
+║ VIP ║ 👑 Clube VIP GBStore              ║ R$14,90/m ║ Assinatura   ║
+╚═════╩════════════════════════════════════╩═══════════╩══════════════╝
+
+📊 TOTAL: 21 produtos + 8 packs + 1 assinatura = 30 ofertas
+📏 Faixa de preço: R$ 14,90/mês — R$ 997,00
+💰 Valor total do catálogo (tudo separado): R$ 1.800+
+🏷️ Categorias: 8 (Jogos, Software, ERP, Finanças, 
+                    Loterias, IA, Eco, Packs)
+```
+
+---
+
+## 🔁 ATUALIZAÇÃO DO REMARKETING
+
+### Campanha Extra — Remarketing por Categoria
+
+Adicione esta campanha que menciona os **novos produtos**:
+
+```
+┌─────────────────────────────────────────┐
+│      CAMPANHA REMARKETING EXTRA          │
+├─────────────────────────────────────────┤
+│ Nome: 🆕 Novos produtos 48h             │
+│ Gatilho: 48 horas após /start           │
+│ Condição: SEM compra + viu catálogo    │
+│ Status: ✅ Ativo                         │
+└─────────────────────────────────────────┘
+```
+
+**Mensagem:**
+
+```
+🆕 {nome}, tem NOVIDADE na GBStore! 🚀
+
+Além de jogos e softwares, agora temos
+categorias EXCLUSIVAS:
+
+━━━━━━━━━━━━━━━━━━
+
+🏢 𝗘𝗥𝗣 & 𝗦𝗜𝗦𝗧𝗘𝗠𝗔𝗦:
+Sistema completo pra sua empresa a partir de R$ 127
+
+💰 𝗙𝗜𝗡𝗔𝗡Ç𝗔𝗦:
+FlashPay, Lumia, Wealthflow... a partir de R$ 79,90
+
+🎲 𝗟𝗢𝗧𝗘𝗥𝗜𝗔𝗦 𝗖𝗢𝗠 𝗜𝗔:
+Foco Loterias com Oráculo dos Sonhos! R$ 69,90
+
+🤖 𝗜𝗔 & 𝗣𝗥𝗢𝗗𝗨𝗧𝗜𝗩𝗜𝗗𝗔𝗗𝗘:
+Automação de conteúdo, código e mais! A partir de R$ 57
+
+━━━━━━━━━━━━━━━━━━
+
+🎟️ Seu cupom 𝗕𝗘𝗠𝗩𝗜𝗡𝗗𝗢 (15% OFF)
+ainda está ativo!
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Explorar novidades:
+```
+
+**Botão:**
+```
+[🛒 VER TODAS AS CATEGORIAS] → Ir para PLANOS
+```
+
+---
+
+## 🎁 ATUALIZAÇÃO DO UPSELL
+
+Atualize a mensagem do Upsell para mencionar que agora o VIP inclui acesso a **mais categorias**:
+
+Na mensagem do Upsell, **adicione** esta linha após os benefícios:
+
+```
+🆕 Acesso antecipado a NOVOS apps e sistemas
+   (ERP, Finanças, IA, Loterias e mais!)
+```
+
+---
+
+## 📬 MODELO DE POST PARA CANAL (Novos Produtos)
+
+### Post modelo — App Financeiro
+
+```
+⚡ 𝗡𝗢𝗩𝗜𝗗𝗔𝗗𝗘 𝗡𝗔 𝗚𝗕𝗦𝗧𝗢𝗥𝗘!
+
+⚡ FlashPay Enterprise
+
+Sua fintech pessoal no celular! 💳
+Conta, PIX, cartões, investimentos e Chat IA.
+
+━━━━━━━━━━━━━━━━━━
+
+💰 Apps similares cobram: R$ 50-200/mês
+🔥 Na GBStore: 𝗥$ 𝟭𝟰𝟳,𝟬𝟬 (pagamento único!)
+📉 ZERO mensalidade — use PARA SEMPRE!
+
+⚡ Entrega instantânea via bot
+🔒 App original e seguro
+🛡️ Garantia de 7 dias
+
+━━━━━━━━━━━━━━━━━━
+
+👇 Comprar agora:
+
+[🛒 COMPRAR NO BOT] → https://t.me/WaveArcadeBot?start=flashpay
+```
+
+### Post modelo — Loteria
+
+```
+🍀 𝗡𝗢𝗩𝗜𝗗𝗔𝗗𝗘: 𝗙𝗢𝗖𝗢 𝗟𝗢𝗧𝗘𝗥𝗜𝗔𝗦 🍀
+
+Jogue na Lotofácil e Mega-Sena com
+INTELIGÊNCIA ARTIFICIAL! 🤖🎲
+
+━━━━━━━━━━━━━━━━━━
+
+🔮 ORÁCULO DOS SONHOS:
+Descreva seu sonho e a IA revela
+as dezenas equivalentes! ✨
+
+📊 Filtros matemáticos avançados
+🎫 Sistema de Bolões
+⚙️ 4 temas visuais
+
+━━━━━━━━━━━━━━━━━━
+
+🔥 𝗔𝗣𝗘𝗡𝗔𝗦 𝗥$ 𝟲𝟵,𝟵𝟬 (sem mensalidade!)
+🍀 "E se o próximo prêmio for seu?"
+
+━━━━━━━━━━━━━━━━━━
+
+[🛒 QUERO O FOCO LOTERIAS] → https://t.me/WaveArcadeBot?start=foco
+```
+
+---
+
+## ✅ CHECKLIST ATUALIZADO FINAL
+
+### ⚙️ CONFIGURAÇÃO
+```
+☐ Fluxo "GBStore — Loja Digital" criado/atualizado
+☐ Bot @WaveArcadeBot vinculado
+☐ Cache de mídia configurado
+☐ Gateway de pagamento ativo
+```
+
+### 📝 PRODUTOS (21 planos)
+```
+JOGOS (4):
+☐ GTA V Premium — R$ 29,90
+☐ Elden Ring GOTY — R$ 89,90
+☐ EA Sports FC 25 — R$ 49,90
+☐ Cyberpunk 2077 — R$ 59,90
+
+SOFTWARE (2):
+☐ Windows 11 Pro — R$ 45,00
+☐ Office 2021 — R$ 35,00
+
+ERP & AUTOMAÇÃO (3):
+☐ ETHECNC ERP PRO — R$ 197,00
+☐ SAV-ETHECNC — R$ 147,00
+☐ Optima-IA — R$ 127,00
+
+FINANÇAS (5):
+☐ FlashPay Enterprise — R$ 147,00
+☐ Lumia Finance Premium — R$ 97,00
+☐ Âncora Investimentos — R$ 117,00
+☐ FlashPay Casa+ Home — R$ 79,90
+☐ Wealthflow Premium — R$ 87,00
+
+LOTERIAS (2):
+☐ Foco Loterias Premium — R$ 69,90
+☐ Lumina 15 — R$ 59,90
+
+IA & PRODUTIVIDADE (3):
+☐ Open Studio IA — R$ 89,90
+☐ OptimaAI Dev Pack — R$ 67,00
+☐ DishGen AI — R$ 57,00
+
+VIDA & SUSTENTABILIDADE (2):
+☐ EcoTrack — R$ 39,90
+☐ Relíquias Rosa da Cozinha — R$ 29,90
+```
+
+### 📦 PACKS (8)
+```
+☐ Pack Essencial PC — R$ 69,90
+☐ Mega Pack Gamer — R$ 149,90
+☐ Pack Setup Completo — R$ 179,90
+☐ Pack Empreendedor Digital — R$ 397,00
+☐ Pack Financeiro Total — R$ 447,00
+☐ Pack Loteria Duplo — R$ 109,90
+☐ Pack IA Completo — R$ 179,90
+☐ 👑 MEGA PACK TUDO — R$ 997,00
+```
+
+### 🎯 FUNIL
+```
+☐ Upsell VIP atualizado (R$ 19,90)
+☐ Downsell Mini Pack (R$ 9,90)
+☐ Order Bump Garantia (R$ 7,90)
+☐ Order Bump Jogo Surpresa (R$ 4,90)
+☐ Assinatura VIP (R$ 14,90/mês)
+```
+
+### 📣 REMARKETING
+```
+☐ 30 minutos (cupom 15%)
+☐ 24 horas (urgência)
+☐ 48 horas (novos produtos) ← NOVO!
+☐ 7 dias pós-compra (recompra 20%)
+☐ 30 dias (reativação 30%)
+```
+
+### 🔘 MENU
+```
+☐ 13 botões de menu configurados (atualizado)
+☐ Redirecionadores criados
+☐ Canal de ofertas configurado
+```
+
+---
+
+## 💰 PROJEÇÃO DE RECEITA ATUALIZADA
+
+```
+COM CATÁLOGO EXPANDIDO (1.000 leads/mês):
+
+┌──────────────────────────────┬──────────────┐
+│ Jogos + Softwares (50%)      │ ~R$ 2.250    │
+│ Apps Premium (30%)           │ ~R$ 3.500    │
+│ Packs/Combos (15%)          │ ~R$ 1.800    │
+│ Upsell/Downsell/Bumps       │ ~R$ 500      │
+│ Assinatura VIP (5 novos/mês)│ ~R$ 75+      │
+│ Remarketing (recuperação)    │ ~R$ 800      │
+╞══════════════════════════════╪══════════════╡
+│ 💰 TOTAL MENSAL ESTIMADO    │ R$ 8.925+    │
+│ 📈 Ticket médio esperado    │ R$ 85-120    │
+│ 🔄 Recorrência VIP          │ +R$ 75/mês   │
+└──────────────────────────────┴──────────────┘
+
+💡 Com apps proprietários, a margem é de
+   praticamente 100% (custo zero de produção!)
+```
+
+---
+
+> 🎮 **GBStore expandida e pronta para escalar!**
+> 
+> Com 21 produtos + 8 packs + VIP, sua loja agora cobre **6 nichos diferentes** e tem um ticket médio muito maior. Os apps proprietários como FlashPay, Foco Loterias e Lumina 15 são os que mais geram margem — **foque neles nas campanhas!**
+> 
+> Boa sorte, Ari! 💚🚀
