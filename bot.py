@@ -300,18 +300,35 @@ async def institutional_detail(update, context, page):
 
 
 async def show_support(update, context):
-    """Exibe informações de suporte."""
-    whatsapp_clean = "".join(filter(str.isdigit, STORE_WHATSAPP))
-    if whatsapp_clean and not whatsapp_clean.startswith("55"):
-        whatsapp_clean = "55" + whatsapp_clean
+    """Exibe informações de suporte com mensagem pré-formatada."""
+    from urllib.parse import quote
+    
+    mensagem_suporte = (
+        "👋 Olá! Seja bem-vindo ao Suporte da Ware Arcade.\n\n"
+        "Obrigado por entrar em contato! 😊\n\n"
+        "Como podemos ajudar você hoje?\n\n"
+        "Escolha uma das opções abaixo ou descreva sua necessidade:\n\n"
+        "🛒 1. Informações sobre compra\n"
+        "💳 2. Pagamento ou pedido não aprovado\n"
+        "❌ 3. Venda cancelada\n"
+        "📦 4. Pós-venda\n"
+        "⬇️ 5. Dúvidas sobre download\n"
+        "🔑 6. Data de expiração do download\n"
+        "🔄 7. Renovação ou novo link de download\n"
+        "🛠️ 8. Problemas técnicos ou instalação\n"
+        "📱 9. Compatibilidade com dispositivos\n"
+        "👤 10. Minha conta ou acesso\n"
+        "💡 11. Outras dúvidas ou suporte geral\n\n"
+        "Por favor, informe também o número do seu pedido, caso tenha um, para agilizar o atendimento."
+    )
 
-    ig_clean = STORE_INSTAGRAM.replace("@", "").replace(" ", "")
+    texto_codificado = quote(mensagem_suporte)
 
     text = (
         f"📞 *SUPORTE AO CLIENTE*\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n\n"
         f"🏪 *{STORE_NAME}*\n\n"
-        f"💬 *Fale conosco:*\n\n"
+        f"💬 *Fale conosco diretamente pelo WhatsApp:*\n\n"
         f"📱 *WhatsApp:* {STORE_WHATSAPP}\n"
         f"📧 *Email:* {STORE_EMAIL}\n"
         f"📸 *Instagram:* {STORE_INSTAGRAM}\n"
@@ -321,18 +338,31 @@ async def show_support(update, context):
         f"Respondemos em até 30 minutos."
     )
 
-    keyboard = []
-    if whatsapp_clean and len(whatsapp_clean) >= 12:
-        keyboard.append([InlineKeyboardButton("📱 Chamar no WhatsApp", url=f"https://wa.me/{whatsapp_clean}")])
-    if ig_clean:
-        keyboard.append([InlineKeyboardButton("📸 Seguir no Instagram", url=f"https://instagram.com/{ig_clean}")])
-    keyboard.append([InlineKeyboardButton("❓ FAQ", callback_data="faq")])
-    keyboard.append([InlineKeyboardButton("🏠 Menu Principal", callback_data="main_menu")])
+    keyboard = [
+        [
+            InlineKeyboardButton(
+                "💬 Falar com o Suporte Ware Arcade",
+                url=f"https://wa.me/5511940462611?text={texto_codificado}"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "🏠 Menu Principal",
+                callback_data="main_menu"
+            )
+        ]
+    ]
 
-    await update.callback_query.edit_message_text(
-        text, parse_mode=ParseMode.MARKDOWN,
-        reply_markup=InlineKeyboardMarkup(keyboard)
-    )
+    if update.callback_query:
+        await update.callback_query.edit_message_text(
+            text, parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(keyboard)
+        )
+    else:
+        await update.message.reply_text(
+            text, parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(keyboard)
+        )
 
 
 async def show_faq(update, context):
