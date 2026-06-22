@@ -495,14 +495,34 @@ async def show_category_by_type(update, context, tipo, page=0):
     )
 
 
-async def search_product_click(update, context):
-    """Inicia a busca de produtos."""
-    user_id = update.callback_query.from_user.id
-    set_user_state(user_id, "AWAITING_SEARCH")
-    await update.callback_query.message.reply_text(
-        "🔍 *Busca de Produtos*\n\nDigite o nome do jogo ou software que deseja procurar:",
-        parse_mode=ParseMode.MARKDOWN
-    )
+async def handle_user_message(update, context):
+    """Gerencia a entrada de texto do usuário (Captura a Busca)."""
+    user_id = update.effective_user.id
+    state, data = get_user_state(user_id)
+    text = update.message.text
+
+    if state == "AWAITING_SEARCH":
+        clear_user_state(user_id)
+        results = search_games(text)
+        
+        # Salva os resultados no contexto para paginação
+        context.user_data["last_search_results"] = results
+        
+        if not results:
+            await update.message.reply_text(
+                f"❌ Nenhum produto encontrado para: *{text}*\n"
+                "Tente buscar usando outra palavra-chave.",
+                parse_mode=ParseMode.MARKDOWN,
+                reply_markup=back_to_menu_keyboard()
+            )
+            return
+
+        await update.message.reply_text(
+            f"🔍 *Resultados para:* '{text}'\n"
+            f"Encontramos {len(results)} item(ns):",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=catalog_keyboard(0, results, prefix="search_res")
+        )
 
 
 async def show_game_detail(update, context, game_id):
@@ -1227,7 +1247,11 @@ async def button(update, context):
     # ── Catálogo ──
     elif data.startswith("catalog_"):
         page = int(data.split("_")[1])
-        await catalog(update, context, page)
+        await query.edit_message_text(
+            "🎮 *CATÁLOGO DE JOGOS E SOFTWARES*\n\nSelecione um produto para ver detalhes:",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=catalog_keyboard(page, GAMES_CATALOG)
+        )
 
     # ── Ofertas ──
     elif data.startswith("offers_"):
@@ -1254,6 +1278,16 @@ async def button(update, context):
         page = int(parts[-1])
         tipo = "_".join(parts[1:-1])
         await show_category_by_type(update, context, tipo, page)
+
+    # ── Resultados da Busca ──
+elif data.startswith("search_res_"):
+    page = int(data.split("_")[2])
+    results = context.user_data.get("last_search_results", GAMES_CATALOG)
+    await query.edit_message_text(
+        "🔍 *RESULTADOS DA BUSCA*\n\nSelecione um produto para ver detalhes:",
+        parse_mode=ParseMode.MARKDOWN,
+        reply_markup=catalog_keyboard(page, results, prefix="search_res")
+    )
 
     # ── Detalhe do Produto ──
     elif data.startswith("game_"):
@@ -1344,7 +1378,6 @@ async def button(update, context):
     elif data == "noop":
         pass
 
-
 # ════════════════════════════════════════
 # MAIN
 # ════════════════════════════════════════
@@ -1391,6 +1424,7 @@ async def main_async():
 
     # ── Handlers ──
     app.add_handler(CallbackQueryHandler(button))
+app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_user_message))
     app.add_handler(MessageHandler(filters.PHOTO | filters.Document.ALL, handle_payment_proof))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_registration))
 
