@@ -229,12 +229,10 @@ def get_game_by_id(game_id):
     return None
 
 
-
 def search_games(query):
-    """Busca produtos pelo nome (case insensitive)."""
-    query_lower = query.lower().strip()
+    """Busca produtos pelo nome."""
+    query_lower = query.lower()
     return [g for g in GAMES_CATALOG if query_lower in g["nome"].lower()]
-
 
 
 def get_games_by_category(category):
