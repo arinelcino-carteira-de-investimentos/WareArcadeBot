@@ -1,6 +1,6 @@
 """
 ===============================================
-WareArcadeBot - CATÁLOGO COMPLETO
+WareArcadeBot - CATÁLOGO COMPLETO (152 Produtos)
 ===============================================
 🎮 Jogos PC + 🖥️ Sistemas + 📄 Office +
 🎨 Design + 🏗️ Engenharia + 🔒 Antivírus +
@@ -22,7 +22,7 @@ CATEGORIES = [
 ]
 
 # ════════════════════════════════════════
-# CATÁLOGO COMPLETO
+# CATÁLOGO COMPLETO - 152 PRODUTOS
 # ════════════════════════════════════════
 
 GAMES_CATALOG = [
@@ -123,16 +123,16 @@ GAMES_CATALOG = [
     {"id": 92, "nome": "The Sims 3 Com Todas DLCs", "preco_original": 49.90, "preco_oferta": 29.90, "descricao": "The Sims 3 completo com todas as DLCs!", "categorias": ["Simulação", "Casuais"], "oferta": True, "plataforma": "PC", "tipo": "🎮 Jogo", "imagem_url": "https://cdn.akamai.steamstatic.com/steam/apps/47890/header.jpg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🖥️ SISTEMAS OPERACIONAIS
+    # 🖥️ SISTEMAS OPERACIONAIS (5 produtos - IDs 100-104)
     # ═══════════════════════════════════════════════════════
-    {"id": 100, "nome": "Windows 11 Pro - Licença Vitalícia", "preco_original": 899.90, "preco_oferta": 89.90, "descricao": "Licença ORIGINAL Windows 11 Pro vitalícia. Ativação online garantida.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
-    {"id": 101, "nome": "Windows 10 Pro - Licença Vitalícia", "preco_original": 699.90, "preco_oferta": 69.90, "descricao": "Licença ORIGINAL Windows 10 Pro vitalícia. Compatível com qualquer PC.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
-    {"id": 102, "nome": "Windows 11 Home - Licença Original", "preco_original": 599.90, "preco_oferta": 59.90, "descricao": "Licença Windows 11 Home original. Perfeito para uso doméstico.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
+    {"id": 100, "nome": "Windows 11 Pro - Licença Vitalícia", "preco_original": 899.90, "preco_oferta": 89.90, "descricao": "Licença ORIGINAL Windows 11 Pro vitalícia. Ativação online garantida.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGwst"},
+    {"id": 101, "nome": "Windows 10 Pro - Licença Vitalícia", "preco_original": 699.90, "preco_oferta": 69.90, "descricao": "Licença ORIGINAL Windows 10 Pro vitalícia. Compatível com qualquer PC.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Windows_logo_-_2012.svg/512px-Windows_logo_-_2012.svg.png"},
+    {"id": 102, "nome": "Windows 11 Home - Licença Original", "preco_original": 599.90, "preco_oferta": 59.90, "descricao": "Licença Windows 11 Home original. Perfeito para uso doméstico.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGwst"},
     {"id": 103, "nome": "Ubuntu 24.04 LTS + Suporte", "preco_original": 149.90, "preco_oferta": 49.90, "descricao": "Ubuntu 24.04 LTS com suporte premium. Instalação assistida + tutoriais.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"},
     {"id": 104, "nome": "Windows Server 2022 Standard", "preco_original": 2999.90, "preco_oferta": 499.90, "descricao": "Windows Server 2022. Para empresas e servidores corporativos.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "Server", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 📄 MICROSOFT OFFICE
+    # 📄 MICROSOFT OFFICE (5 produtos - IDs 110-114)
     # ═══════════════════════════════════════════════════════
     {"id": 110, "nome": "Microsoft Office 2021 Pro Plus", "preco_original": 1899.90, "preco_oferta": 79.90, "descricao": "Office 2021 Pro Plus VITALÍCIO. Word, Excel, PowerPoint, Outlook, Access.", "categorias": ["Office", "Produtividade"], "oferta": True, "plataforma": "PC", "tipo": "📄 Office", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg"},
     {"id": 111, "nome": "Microsoft Office 2019 Pro Plus", "preco_original": 1599.90, "preco_oferta": 69.90, "descricao": "Office 2019 Pro Plus completo. Licença vitalícia.", "categorias": ["Office", "Produtividade"], "oferta": True, "plataforma": "PC", "tipo": "📄 Office", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg"},
@@ -141,7 +141,7 @@ GAMES_CATALOG = [
     {"id": 114, "nome": "Microsoft Visio 2021 Pro", "preco_original": 2999.90, "preco_oferta": 199.90, "descricao": "MS Visio 2021 para diagramas profissionais.", "categorias": ["Office", "Produtividade"], "oferta": True, "plataforma": "PC", "tipo": "📄 Office", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Microsoft_Office_Visio_%282019%E2%80%93present%29.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🎨 ADOBE / DESIGN
+    # 🎨 ADOBE / DESIGN (7 produtos - IDs 120-126)
     # ═══════════════════════════════════════════════════════
     {"id": 120, "nome": "Adobe Photoshop 2024 - Lifetime", "preco_original": 1899.90, "preco_oferta": 149.90, "descricao": "Adobe Photoshop 2024 completo. Sem mensalidade!", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"},
     {"id": 121, "nome": "Adobe Illustrator 2024 - Lifetime", "preco_original": 1799.90, "preco_oferta": 139.90, "descricao": "Adobe Illustrator 2024. Design vetorial profissional.", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"},
@@ -149,69 +149,92 @@ GAMES_CATALOG = [
     {"id": 123, "nome": "Adobe After Effects 2024", "preco_original": 1999.90, "preco_oferta": 169.90, "descricao": "Adobe After Effects 2024. Animação e VFX.", "categorias": ["Edição de Vídeo", "Design"], "oferta": True, "plataforma": "PC", "tipo": "🎬 Vídeo", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Adobe_After_Effects_CC_icon.svg"},
     {"id": 124, "nome": "Adobe Creative Cloud COMPLETO", "preco_original": 4999.90, "preco_oferta": 399.90, "descricao": "Pacote Adobe COMPLETO: 20+ apps profissionais!", "categorias": ["Design", "Edição de Vídeo"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Adobe_Creative_Cloud_rainbow_icon.svg"},
     {"id": 125, "nome": "CorelDRAW Graphics Suite 2024", "preco_original": 2499.90, "preco_oferta": 199.90, "descricao": "CorelDRAW 2024 completo. Design vetorial.", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Coreldraw_2020_logo.svg"},
+    {"id": 126, "nome": "Canva Pro - 1 Ano Completo", "preco_original": 599.90, "preco_oferta": 79.90, "descricao": "Canva Pro por 1 ano. Milhões de templates premium.", "categorias": ["Design"], "oferta": True, "plataforma": "Web", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🏗️ ENGENHARIA / 3D
+    # 🏗️ ENGENHARIA / 3D (8 produtos - IDs 130-137)
     # ═══════════════════════════════════════════════════════
     {"id": 130, "nome": "AutoCAD 2024 - Profissional", "preco_original": 9999.90, "preco_oferta": 299.90, "descricao": "AutoCAD 2024 completo. Software CAD #1 do mundo.", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Autocad-Logo.svg"},
     {"id": 131, "nome": "AutoCAD LT 2024", "preco_original": 4999.90, "preco_oferta": 199.90, "descricao": "AutoCAD LT 2024. Versão 2D profissional.", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Autocad-Logo.svg"},
     {"id": 132, "nome": "SketchUp Pro 2024 - Vitalício", "preco_original": 2999.90, "preco_oferta": 249.90, "descricao": "SketchUp Pro 2024. Modelagem 3D arquitetônica.", "categorias": ["Engenharia", "Design"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/SketchUp_logo.svg"},
     {"id": 133, "nome": "Revit 2024 Profissional", "preco_original": 11999.90, "preco_oferta": 399.90, "descricao": "Autodesk Revit 2024. BIM profissional.", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Revit_2017_logo.png"},
     {"id": 134, "nome": "3ds Max 2024", "preco_original": 9999.90, "preco_oferta": 349.90, "descricao": "Autodesk 3ds Max 2024. Modelagem e renderização 3D.", "categorias": ["Engenharia", "Design"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Autodesk_3ds_Max_2014_logo.png"},
+    {"id": 135, "nome": "Maya 2024", "preco_original": 9999.90, "preco_oferta": 349.90, "descricao": "Autodesk Maya 2024. Animação 3D padrão Hollywood.", "categorias": ["Engenharia", "Design"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Autodesk_Maya_2017_logo.png"},
+    {"id": 136, "nome": "SolidWorks 2024 Premium", "preco_original": 19999.90, "preco_oferta": 499.90, "descricao": "SolidWorks 2024 Premium. CAD 3D mecânico.", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/SolidWorks_Logo.svg"},
+    {"id": 137, "nome": "Lumion 2024 Pro - Renderização", "preco_original": 7999.90, "preco_oferta": 299.90, "descricao": "Lumion 2024 Pro. Renderização arquitetônica tempo real.", "categorias": ["Engenharia", "Design"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lumion_logo.png"},
 
     # ═══════════════════════════════════════════════════════
-    # 🔒 ANTIVÍRUS
+    # 🔒 ANTIVÍRUS (8 produtos - IDs 140-147)
     # ═══════════════════════════════════════════════════════
     {"id": 140, "nome": "Norton 360 Deluxe (5 dispositivos)", "preco_original": 399.90, "preco_oferta": 89.90, "descricao": "Norton 360 Deluxe. Antivírus + VPN + Senhas. 5 dispositivos.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Norton_AntiVirus_logo.png"},
     {"id": 141, "nome": "Kaspersky Premium (5 dispositivos)", "preco_original": 349.90, "preco_oferta": 79.90, "descricao": "Kaspersky Premium. Proteção total + VPN ilimitada.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kaspersky_logo.svg"},
     {"id": 142, "nome": "Bitdefender Total Security", "preco_original": 399.90, "preco_oferta": 89.90, "descricao": "Bitdefender Total Security. Melhor antivírus em testes.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bitdefender_2019_logo.svg"},
+    {"id": 143, "nome": "McAfee Total Protection (10 disp)", "preco_original": 299.90, "preco_oferta": 69.90, "descricao": "McAfee Total Protection. 10 dispositivos com VPN.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/McAfee_logo_%282017%29.svg"},
+    {"id": 144, "nome": "ESET NOD32 Smart Security", "preco_original": 249.90, "preco_oferta": 59.90, "descricao": "ESET NOD32 Smart Security. Antivírus leve e eficiente.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/ESET_logo.svg"},
+    {"id": 145, "nome": "Malwarebytes Premium", "preco_original": 199.90, "preco_oferta": 49.90, "descricao": "Malwarebytes Premium. Especialista em malware e ransomware.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Malwarebytes_logo.svg"},
+    {"id": 146, "nome": "AVG Internet Security (3 disp)", "preco_original": 149.90, "preco_oferta": 39.90, "descricao": "AVG Internet Security. Proteção contra vírus e ataques.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/AVG_logo_2016.svg"},
+    {"id": 147, "nome": "Avast Premium Security (5 disp)", "preco_original": 199.90, "preco_oferta": 49.90, "descricao": "Avast Premium Security. 5 dispositivos com proteção total.", "categorias": ["Antivírus"], "oferta": True, "plataforma": "Multi", "tipo": "🔒 Segurança", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Avast_logo_2021.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🛠️ FERRAMENTAS
+    # 🛠️ FERRAMENTAS (10 produtos - IDs 150-159)
     # ═══════════════════════════════════════════════════════
     {"id": 150, "nome": "WinRAR Premium - Vitalício", "preco_original": 149.90, "preco_oferta": 29.90, "descricao": "WinRAR Premium vitalício. Compactador #1 do mundo!", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
     {"id": 151, "nome": "CCleaner Professional Plus", "preco_original": 199.90, "preco_oferta": 39.90, "descricao": "CCleaner Pro Plus. Limpeza + otimização + recuperação.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/CCleaner-Logo.svg"},
-    {"id": 152, "nome": "IDM - Internet Download Manager", "preco_original": 99.90, "preco_oferta": 24.90, "descricao": "IDM vitalício. Acelera downloads em 5x!", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
+    {"id": 152, "nome": "IObit Driver Booster Pro", "preco_original": 149.90, "preco_oferta": 29.90, "descricao": "Driver Booster Pro. Atualize drivers automaticamente.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://www.iobit.com/themes/iobit/img/iobit-logo.svg"},
+    {"id": 153, "nome": "Advanced SystemCare Pro", "preco_original": 179.90, "preco_oferta": 34.90, "descricao": "Advanced SystemCare Pro. Otimização total com 1 clique.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://www.iobit.com/themes/iobit/img/iobit-logo.svg"},
+    {"id": 154, "nome": "AnyDesk Premium (1 ano)", "preco_original": 599.90, "preco_oferta": 89.90, "descricao": "AnyDesk Premium. Acesso remoto profissional.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "Multi", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/AnyDesk_logo.svg"},
+    {"id": 155, "nome": "TeamViewer Business (1 ano)", "preco_original": 1999.90, "preco_oferta": 199.90, "descricao": "TeamViewer Business. Acesso remoto profissional.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "Multi", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/TeamViewer_logo.svg"},
+    {"id": 156, "nome": "IDM - Internet Download Manager", "preco_original": 99.90, "preco_oferta": 24.90, "descricao": "IDM vitalício. Acelera downloads em 5x!", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
+    {"id": 157, "nome": "Wondershare Filmora 13", "preco_original": 599.90, "preco_oferta": 79.90, "descricao": "Filmora 13 vitalício. Editor de vídeo profissional.", "categorias": ["Edição de Vídeo", "Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🎬 Vídeo", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Wondershare_logo_2.svg"},
+    {"id": 158, "nome": "Camtasia 2024 - Vitalício", "preco_original": 1499.90, "preco_oferta": 149.90, "descricao": "Camtasia 2024. Gravação e edição de tela profissional.", "categorias": ["Edição de Vídeo", "Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🎬 Vídeo", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/TechSmith_Logo.png"},
+    {"id": 159, "nome": "NordVPN Premium (2 anos)", "preco_original": 899.90, "preco_oferta": 149.90, "descricao": "NordVPN Premium 2 anos. VPN #1 do mundo. 6 dispositivos.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "Multi", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/NordVPN_logo.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🎬 STREAMING
+    # 🎬 STREAMING (5 produtos - IDs 160-164)
     # ═══════════════════════════════════════════════════════
     {"id": 160, "nome": "Netflix Premium 4K - 30 dias", "preco_original": 55.90, "preco_oferta": 19.90, "descricao": "Netflix Premium 4K Ultra HD por 30 dias. 4 telas simultâneas!", "categorias": ["Streaming"], "oferta": True, "plataforma": "Multi", "tipo": "🎬 Streaming", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"},
     {"id": 161, "nome": "Disney+ Premium - 30 dias", "preco_original": 33.90, "preco_oferta": 14.90, "descricao": "Disney+ Premium 4K. Marvel, Star Wars, Pixar, National Geographic.", "categorias": ["Streaming"], "oferta": True, "plataforma": "Multi", "tipo": "🎬 Streaming", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"},
+    {"id": 162, "nome": "HBO Max - 30 dias", "preco_original": 34.90, "preco_oferta": 16.90, "descricao": "HBO Max por 30 dias. Game of Thrones, DC, Warner Bros.", "categorias": ["Streaming"], "oferta": True, "plataforma": "Multi", "tipo": "🎬 Streaming", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"},
+    {"id": 163, "nome": "Amazon Prime Video - 30 dias", "preco_original": 19.90, "preco_oferta": 9.90, "descricao": "Amazon Prime Video por 30 dias. Catálogo + frete grátis.", "categorias": ["Streaming"], "oferta": True, "plataforma": "Multi", "tipo": "🎬 Streaming", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg"},
+    {"id": 164, "nome": "COMBO MEGA (Netflix+Disney+HBO)", "preco_original": 124.70, "preco_oferta": 39.90, "descricao": "🔥 COMBO MEGA: Netflix + Disney+ + HBO Max. Economia 68%!", "categorias": ["Streaming"], "oferta": True, "plataforma": "Multi", "tipo": "🎬 Streaming", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🎵 MÚSICA
+    # 🎵 MÚSICA (3 produtos - IDs 165-167)
     # ═══════════════════════════════════════════════════════
     {"id": 165, "nome": "Spotify Premium - 30 dias", "preco_original": 21.90, "preco_oferta": 9.90, "descricao": "Spotify Premium individual 30 dias. Sem anúncios + offline.", "categorias": ["Música"], "oferta": True, "plataforma": "Multi", "tipo": "🎵 Música", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg"},
+    {"id": 166, "nome": "Spotify Premium - 90 dias", "preco_original": 65.70, "preco_oferta": 24.90, "descricao": "Spotify Premium 90 dias (3 meses). Economize 62%!", "categorias": ["Música"], "oferta": True, "plataforma": "Multi", "tipo": "🎵 Música", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg"},
+    {"id": 167, "nome": "YouTube Premium + Music", "preco_original": 24.90, "preco_oferta": 12.90, "descricao": "YouTube Premium + Music 30 dias. Sem anúncios + downloads.", "categorias": ["Música"], "oferta": True, "plataforma": "Multi", "tipo": "🎵 Música", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🎁 GIFT CARDS
+    # 🎁 GIFT CARDS (4 produtos - IDs 168-171)
     # ═══════════════════════════════════════════════════════
     {"id": 168, "nome": "Steam Gift Card R$ 50", "preco_original": 50.00, "preco_oferta": 42.90, "descricao": "Cartão Steam R$ 50,00. Entrega instantânea.", "categorias": ["Gift Card"], "oferta": True, "plataforma": "PC", "tipo": "🎁 Gift Card", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg"},
+    {"id": 169, "nome": "Steam Gift Card R$ 100", "preco_original": 100.00, "preco_oferta": 84.90, "descricao": "Cartão Steam R$ 100,00. Use em jogos, DLCs e itens.", "categorias": ["Gift Card"], "oferta": True, "plataforma": "PC", "tipo": "🎁 Gift Card", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg"},
+    {"id": 170, "nome": "PlayStation Plus Essential 3 meses", "preco_original": 119.90, "preco_oferta": 79.90, "descricao": "PS Plus Essential 3 meses. Online + jogos mensais.", "categorias": ["Gift Card"], "oferta": True, "plataforma": "PlayStation", "tipo": "🎁 Gift Card", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/PlayStation_logo.svg"},
+    {"id": 171, "nome": "Xbox Game Pass Ultimate 3 meses", "preco_original": 134.97, "preco_oferta": 89.90, "descricao": "Xbox Game Pass Ultimate 3 meses. +100 jogos PC/Console/Cloud.", "categorias": ["Gift Card"], "oferta": True, "plataforma": "Xbox/PC", "tipo": "🎁 Gift Card", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # ☁️ CLOUD
+    # ☁️ ARMAZENAMENTO NUVEM (3 produtos - IDs 172-174)
     # ═══════════════════════════════════════════════════════
     {"id": 172, "nome": "Google One 2TB - 1 ano", "preco_original": 449.90, "preco_oferta": 189.90, "descricao": "Google One 2TB por 1 ano. Drive, Gmail, Fotos.", "categorias": ["Cloud"], "oferta": True, "plataforma": "Multi", "tipo": "☁️ Cloud", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Google_One_logo.svg"},
+    {"id": 173, "nome": "iCloud+ 2TB - 1 ano", "preco_original": 599.90, "preco_oferta": 249.90, "descricao": "iCloud+ 2TB Apple. Backup iPhone, iPad, Mac.", "categorias": ["Cloud"], "oferta": True, "plataforma": "Apple", "tipo": "☁️ Cloud", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/ICloud_logo.svg"},
+    {"id": 174, "nome": "Dropbox Plus 2TB - 1 ano", "preco_original": 549.90, "preco_oferta": 199.90, "descricao": "Dropbox Plus 2TB. Sincronização profissional.", "categorias": ["Cloud"], "oferta": True, "plataforma": "Multi", "tipo": "☁️ Cloud", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg"},
 
     # ═══════════════════════════════════════════════════════
-    # 🎓 CURSOS
+    # 🎓 CURSOS ONLINE (2 produtos - IDs 175-176)
     # ═══════════════════════════════════════════════════════
     {"id": 175, "nome": "Curso Completo Excel Avançado", "preco_original": 397.00, "preco_oferta": 47.90, "descricao": "Curso completo Excel: Básico ao VBA + Dashboards. 80h.", "categorias": ["Curso", "Produtividade"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Microsoft_Excel_2013-2019_logo.svg"},
-
-    # ═══════════════════════════════════════════════════════
-    # 🧪 PRODUTO DE TESTE
-    # ═══════════════════════════════════════════════════════
+    {"id": 176, "nome": "Curso Completo AutoCAD 2024", "preco_original": 497.00, "preco_oferta": 89.90, "descricao": "Curso AutoCAD 2024 do zero ao avançado. 60h + certificado.", "categorias": ["Curso", "Engenharia"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Autocad-Logo.svg"},
     {
         "id": 999,
-        "nome": "🧪 TESTE DO ARI - R$ 1,50",
+        "nome": "TESTE DO ARI",
         "preco_original": 1.50,
         "preco_oferta": 1.50,
-        "descricao": "✅ Produto de teste para validar o fluxo completo de compra!\n\n➡️ Adicione ao carrinho\n➡️ Finalize com PIX\n➡️ Envie o comprovante\n➡️ Receba o link de download\n\n🎯 Perfeito para testar todo o sistema!",
+        "descricao": "Produto de teste para validar fluxo completo. Pague R$ 1,50 via PIX!",
         "categorias": ["Destaques"],
         "oferta": True,
         "plataforma": "PC",
-        "tipo": "🧪 Teste",
+        "tipo": "Teste",
         "imagem_url": "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg"
     },
 ]
@@ -278,5 +301,25 @@ def get_game_display(game):
         f"💰 {preco}\n"
         f"🖥️ Plataforma: {game['plataforma']}\n"
         f"🏷️ Categorias: {cats}\n"
-        f"📝 {game['descricao']}"
+        f"📝 {game['descricao',
+    {"id": 180, "nome": "Windows 10 Pro OEM", "preco_original": 499.90, "preco_oferta": 59.90, "descricao": "Windows 10 Pro OEM. Ativacao via digital license.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
+    {"id": 181, "nome": "Windows 11 Home OEM", "preco_original": 399.90, "preco_oferta": 49.90, "descricao": "Windows 11 Home OEM. Ativacao online rapida.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
+    {"id": 182, "nome": "Windows 11 Pro OEM", "preco_original": 599.90, "preco_oferta": 69.90, "descricao": "Windows 11 Pro OEM. Para empresas.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
+    {"id": 183, "nome": "Windows Server 2022 Datacenter", "preco_original": 4500.00, "preco_oferta": 599.90, "descricao": "Windows Server 2022 Datacenter. Virtualizacao ilimitada.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "Server", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},
+    {"id": 184, "nome": "Office 2021 Home & Business para Mac", "preco_original": 1499.00, "preco_oferta": 129.90, "descricao": "Office 2021 para Mac. Vitalicio para usuarios Apple.", "categorias": ["Office"], "oferta": True, "plataforma": "MacOS", "tipo": "📄 Office", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg"},
+    {"id": 185, "nome": "Linux Mint 22 + Suporte", "preco_original": 149.90, "preco_oferta": 39.90, "descricao": "Linux Mint 22 com suporte premium.", "categorias": ["Sistema Operacional"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Linux_Mint_logo_without_wordmark.svg"},
+    {"id": 186, "nome": "Microsoft Office 2024 Pro Plus", "preco_original": 2499.90, "preco_oferta": 129.90, "descricao": "Office 2024 Pro Plus. Ultima versao!", "categorias": ["Office"], "oferta": True, "plataforma": "PC", "tipo": "📄 Office", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg"},
+    {"id": 187, "nome": "CorelDRAW Technical Suite 2024", "preco_original": 3500.00, "preco_oferta": 249.90, "descricao": "CorelDRAW Technical. Design tecnico de precisao.", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Coreldraw_2020_logo.svg"},
+    {"id": 188, "nome": "Autodesk Civil 3D 2024", "preco_original": 12000.00, "preco_oferta": 449.90, "descricao": "Civil 3D 2024. Infraestrutura civil profissional.", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Autocad-Logo.svg"},
+    {"id": 189, "nome": "Adobe Acrobat Pro DC Vitalicio", "preco_original": 1299.90, "preco_oferta": 99.90, "descricao": "Adobe Acrobat Pro. Editar PDFs profissionalmente.", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Adobe_Creative_Cloud_rainbow_icon.svg"},
+    {"id": 190, "nome": "AutoCAD + SketchUp COMBO", "preco_original": 12999.90, "preco_oferta": 449.90, "descricao": "COMBO: AutoCAD 2024 + SketchUp Pro 2024!", "categorias": ["Engenharia"], "oferta": True, "plataforma": "PC", "tipo": "🏗️ Engenharia", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Autocad-Logo.svg"},
+    {"id": 191, "nome": "Pacote Adobe + CorelDRAW COMPLETO", "preco_original": 7999.90, "preco_oferta": 599.90, "descricao": "Todos os Adobe + CorelDRAW!", "categorias": ["Design"], "oferta": True, "plataforma": "PC", "tipo": "🎨 Design", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Adobe_Creative_Cloud_rainbow_icon.svg"},
+    {"id": 192, "nome": "Gerenciador de Senhas Premium", "preco_original": 199.90, "preco_oferta": 34.90, "descricao": "Gerenciador seguro com criptografia.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "Multi", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
+    {"id": 193, "nome": "Editor de PDF Completo", "preco_original": 399.90, "preco_oferta": 29.90, "descricao": "Editor PDF profissional completo.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
+    {"id": 194, "nome": "Gravador de Tela e Audio Pro", "preco_original": 299.90, "preco_oferta": 39.90, "descricao": "Gravador profissional de tela e audio.", "categorias": ["Ferramentas"], "oferta": True, "plataforma": "PC", "tipo": "🛠️ Ferramenta", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/WinRAR_logo.svg"},
+    {"id": 195, "nome": "Curso Python do Zero ao Avancado", "preco_original": 597.00, "preco_oferta": 69.90, "descricao": "Aprenda Python. 100h + projetos + certificado.", "categorias": ["Curso"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"},
+    {"id": 196, "nome": "Curso Photoshop 2024 Completo", "preco_original": 497.00, "preco_oferta": 59.90, "descricao": "Domine Photoshop. 60h + certificado.", "categorias": ["Curso"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"},
+    {"id": 197, "nome": "Curso SketchUp Pro Completo", "preco_original": 497.00, "preco_oferta": 79.90, "descricao": "SketchUp do zero ao avancado. 80h.", "categorias": ["Curso"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/SketchUp_logo.svg"},
+    {"id": 198, "nome": "Curso Adobe Creative Cloud Completo", "preco_original": 697.00, "preco_oferta": 99.90, "descricao": "Photoshop + Illustrator + Premiere. 120h.", "categorias": ["Curso"], "oferta": True, "plataforma": "Online", "tipo": "🎓 Curso", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Adobe_Creative_Cloud_rainbow_icon.svg"},
+    {"id": 199, "nome": "COMBO SUPREMO Win+Office+Antivirus", "preco_original": 1499.90, "preco_oferta": 159.90, "descricao": "Windows 11 Pro + Office 2021 + Norton 360. Economia 90%!", "categorias": ["Sistema Operacional", "Office", "Antivírus"], "oferta": True, "plataforma": "PC", "tipo": "🖥️ Sistema", "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windows_logo_-_2012.svg"},]}"
     )

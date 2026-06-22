@@ -201,6 +201,7 @@ def send_purchase_email(to_email: str, customer_name: str, order_code: str,
     </html>
     """
 
+    # Versão texto simples
     text_body = f"""
     ✅ COMPRA CONFIRMADA - {STORE_NAME}
 
@@ -257,6 +258,7 @@ def send_multiple_purchase_email(to_email: str, customer_name: str,
             order["game_name"], order["price"], order["download_url"]
         )
 
+    # Múltiplos pedidos
     subject = f"✅ {len(orders)} Compras Confirmadas! - {STORE_NAME}"
     total = sum(o["price"] for o in orders)
 
@@ -293,16 +295,16 @@ def send_multiple_purchase_email(to_email: str, customer_name: str,
     html_body = f"""
     <html><body style="font-family: Arial; background: #1a1a2e; color: white; padding: 20px;">
     <div style="max-width:600px; margin:auto; background:#16213e; border-radius:12px; padding:30px;">
-        <h1 style="color:#00b4d8; text-align:center;">🎮 Ware Arcade</h1>
-        <div style="background: linear-gradient(135deg, #00c853, #00e676); color:white; padding:15px; border-radius:8px; text-align:center; font-size:18px;">
+        <h1 style="color:#00b4d8; text-align:center;">🎮 Ware Arcade - Nerd Games</h1>
+        <div style="background:#00c853; color:white; padding:15px; border-radius:8px; text-align:center; font-size:18px;">
             ✅ {len(orders)} COMPRAS CONFIRMADAS!
         </div>
         <p>Olá, <strong>{customer_name}</strong>!</p>
         <p>Seus pedidos foram confirmados. Total: <strong>R$ {total:.2f}</strong></p>
         {games_html}
-        <div style="background:#3d2000; border-left:4px solid #ff9800; padding:12px; border-radius:4px; color:#ffcc80;">
+        <p style="background:#3d2000; border-left:4px solid #ff9800; padding:12px; border-radius:4px; color:#ffcc80;">
             ⚠️ Links válidos por {DOWNLOAD_LINK_EXPIRY_HOURS} horas!
-        </div>
+        </p>
         <p style="text-align:center; color:#666; font-size:12px;">
             © 2025 {STORE_NAME} | {STORE_EMAIL}
         </p>

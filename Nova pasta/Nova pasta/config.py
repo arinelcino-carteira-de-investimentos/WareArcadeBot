@@ -30,7 +30,7 @@ except ValueError:
     ADMIN_CHAT_IDS = [0]
 
 # ── Link de download e expiração ──
-DOWNLOAD_BASE_URL = os.getenv("DOWNLOAD_BASE_URL", "https://warearcadebot.com.br/downloads/")
+DOWNLOAD_BASE_URL = os.getenv("DOWNLOAD_BASE_URL", "https://nexusdigitalshop.com.br/downloads/")
 DOWNLOAD_LINK_EXPIRY_HOURS = int(os.getenv("DOWNLOAD_LINK_EXPIRY_HOURS", "48"))
 
 # ── Banco de dados ──
@@ -43,18 +43,18 @@ ITEMS_PER_PAGE = 6
 # INFORMAÇÕES DA LOJA
 # ════════════════════════════════════════
 STORE_NAME = "🎮 WareArcadeBot - Nexus Digital Shop"
-STORE_WEBSITE = "https://warearcadebot.com.br/"
+STORE_WEBSITE = "https://nexusdigitalshop.com.br/"
 STORE_EMAIL = "warearcadebot@gmail.com"
 STORE_INSTAGRAM = "@warearcadebot"
 STORE_HOURS = "Seg a Sex: 9h-19h | Sáb: 9h-14h"
-STORE_WHATSAPP = "+5511940462611"
+STORE_WHATSAPP = "+55 11 94046-2611"
 
 # ════════════════════════════════════════
 # CONFIGURAÇÕES DE PIX
 # ════════════════════════════════════════
-PIX_CHAVE = os.getenv("PIX_CHAVE", "11940462611")
+PIX_CHAVE = os.getenv("PIX_CHAVE", "(11) 9.4046-2611")
 PIX_NOME = os.getenv("PIX_NOME", "Arinelcino Gonçalves de Sena")
-PIX_CIDADE = os.getenv("PIX_CIDADE", "Sao Paulo")
+PIX_CIDADE = os.getenv("PIX_CIDADE", "São Paulo")
 PIX_TIPO = os.getenv("PIX_TIPO", "Celular")
 
 # ════════════════════════════════════════
@@ -74,5 +74,4 @@ PAYMENT_METHODS = [
     "💰 PIX (Aprovação Imediata)",
     "💳 Cartão de Crédito",
     "🏦 Transferência Bancária (TED)",
-    "📄 Boleto Bancário",
 ]

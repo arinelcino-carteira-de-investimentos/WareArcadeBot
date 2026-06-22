@@ -11,3 +11,20 @@ COPY bot.py .
 
 # Roda o bot
 CMD ["python", "bot.py"]
+
+python-telegram-bot==20.0
+python-dotenv==1.0.0
+
+
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "sleepApplication": false,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
+TELEGRAM_BOT_TOKEN=8880569558:AAG43IjCT2O6qnAluMzgwVBF5uOjSCeXSeM

@@ -86,18 +86,6 @@ def init_db():
         )
     """)
 
-    # Tabela de comprovantes
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS payment_proofs (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            order_code TEXT NOT NULL,
-            file_id TEXT NOT NULL,
-            file_type TEXT NOT NULL,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            FOREIGN KEY (order_code) REFERENCES orders(order_code)
-        )
-    """)
-
     conn.commit()
     conn.close()
 
@@ -237,7 +225,7 @@ def clear_cart(telegram_id: int):
 
 def generate_order_code() -> str:
     """Gera um código único de pedido."""
-    return f"WA-{uuid.uuid4().hex[:8].upper()}"
+    return f"NG-{uuid.uuid4().hex[:8].upper()}"
 
 
 def generate_download_token() -> str:
@@ -326,70 +314,6 @@ def get_all_orders() -> list:
     return [dict(r) for r in rows]
 
 
-def get_pending_orders() -> list:
-    """Retorna pedidos pendentes de aprovação (admin)."""
-    conn = get_connection()
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT * FROM orders WHERE status = 'aguardando_aprovacao' ORDER BY created_at DESC"
-    )
-    rows = cursor.fetchall()
-    conn.close()
-    return [dict(r) for r in rows]
-
-
-def get_orders_by_codes(codes: list) -> list:
-    """Retorna pedidos por uma lista de códigos."""
-    if not codes:
-        return []
-    conn = get_connection()
-    cursor = conn.cursor()
-    placeholders = ",".join(["?"] * len(codes))
-    cursor.execute(
-        f"SELECT * FROM orders WHERE order_code IN ({placeholders})",
-        codes
-    )
-    rows = cursor.fetchall()
-    conn.close()
-    return [dict(r) for r in rows]
-
-
-def update_order_status(order_code: str, status: str, admin_id: int = None):
-    """Atualiza o status de um pedido."""
-    conn = get_connection()
-    cursor = conn.cursor()
-    
-    if status == "aprovado":
-        cursor.execute("""
-            UPDATE orders 
-            SET status = ?, paid_at = ?
-            WHERE order_code = ?
-        """, (status, datetime.now().isoformat(), order_code))
-    else:
-        cursor.execute(
-            "UPDATE orders SET status = ? WHERE order_code = ?",
-            (status, order_code)
-        )
-    
-    conn.commit()
-    conn.close()
-
-
-def save_payment_proof(order_codes: list, file_id: str, file_type: str):
-    """Salva o ID do arquivo de comprovante nos pedidos."""
-    conn = get_connection()
-    cursor = conn.cursor()
-    
-    for code in order_codes:
-        cursor.execute("""
-            INSERT INTO payment_proofs (order_code, file_id, file_type)
-            VALUES (?, ?, ?)
-        """, (code, file_id, file_type))
-    
-    conn.commit()
-    conn.close()
-
-
 # ────────────────────────────────────────
 # SESSÕES (controle de estado do usuário)
 # ────────────────────────────────────────
@@ -427,3 +351,81 @@ def set_user_state(telegram_id: int, state: str, data: dict = None):
 def clear_user_state(telegram_id: int):
     """Limpa o estado do usuário."""
     set_user_state(telegram_id, "idle", {})
+    # ════════════════════════════════════════
+# COMPROVANTES E APROVAÇÃO DE PAGAMENTO
+# ════════════════════════════════════════
+
+def update_order_status(order_code: str, status: str, admin_id: int = None):
+    """Atualiza o status de um pedido (pendente, aprovado, rejeitado)."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    if status == "aprovado":
+        cursor.execute("""
+            UPDATE orders 
+            SET status = ?, paid_at = ?
+            WHERE order_code = ?
+        """, (status, datetime.now().isoformat(), order_code))
+    else:
+        cursor.execute(
+            "UPDATE orders SET status = ? WHERE order_code = ?",
+            (status, order_code)
+        )
+    
+    conn.commit()
+    conn.close()
+
+
+def save_payment_proof(order_codes: list, file_id: str, file_type: str):
+    """Salva o ID do arquivo de comprovante nos pedidos."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    # Cria tabela se não existir
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS payment_proofs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            order_code TEXT NOT NULL,
+            file_id TEXT NOT NULL,
+            file_type TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (order_code) REFERENCES orders(order_code)
+        )
+    """)
+    
+    for code in order_codes:
+        cursor.execute("""
+            INSERT INTO payment_proofs (order_code, file_id, file_type)
+            VALUES (?, ?, ?)
+        """, (code, file_id, file_type))
+    
+    conn.commit()
+    conn.close()
+
+
+def get_orders_by_codes(codes: list) -> list:
+    """Retorna pedidos por uma lista de códigos."""
+    if not codes:
+        return []
+    conn = get_connection()
+    cursor = conn.cursor()
+    placeholders = ",".join(["?"] * len(codes))
+    cursor.execute(
+        f"SELECT * FROM orders WHERE order_code IN ({placeholders})",
+        codes
+    )
+    rows = cursor.fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def get_pending_orders() -> list:
+    """Retorna pedidos pendentes de aprovação (admin)."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT * FROM orders WHERE status = 'aguardando_aprovacao' ORDER BY created_at DESC"
+    )
+    rows = cursor.fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
